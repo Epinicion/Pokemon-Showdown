@@ -1237,7 +1237,7 @@ hellldrs: function(target, room, user) {
 		var parts = target.split(',');
 		var cmd = parts[0].trim().toLowerCase();
 
-		if (cmd in {show:1, view:1, display:1}) {
+		if (cmd in {'':1, show:1, view:1, display:1}) {
 			if (!this.canBroadcast()) return;
 			message = "<strong><font size=\"3\">Reminders for " + room.title + ":</font></strong>";
 			if (room.reminders && room.reminders.length > 0)
