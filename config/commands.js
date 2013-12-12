@@ -798,7 +798,7 @@ var commands = exports.commands = {
 		if (target === 'all' || target === 'autoconfirmed') {
 			matched = true;
 			buffer += 'A user is autoconfirmed when they have won at least one rated battle and has been registered for a week or longer.<br />';
-		}	
+		}
 		if (!matched) {
 			return this.sendReply('The FAQ entry "'+target+'" was not found. Try /faq for general help.');
 		}
@@ -951,7 +951,7 @@ var commands = exports.commands = {
 	},
 
   //TOUR COMMANDS
-            
+
     tourcommands: function(target, room, user) {
         if (!this.canBroadcast()) return;
         this.sendReplyBox('Tournaments through /tour can be started by Voice (+) users and higher:<br \>' +
@@ -968,123 +968,123 @@ var commands = exports.commands = {
         ***************************************/
 blak: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Soaring BlakAir <br \>' +
-		'<b>Ace:</b> Mega-Gyarados <br \>' + 
+		'<b>Ace:</b> Mega-Gyarados <br \>' +
 		'The struggle is real (oi). Unless there is food involved.<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gyarados-mega.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/staraptor.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sceptile.gif">')
 		},
 kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> KOTS <br \>' +
-		'<b>Ace:</b> Magnezone <br \>' + 
+		'<b>Ace:</b> Magnezone <br \>' +
 		'I go hard like mothaf****n liquid swords<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magnezone.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">')
 		},
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Maxerus <br \>' +
-		'<b>Ace:</b> Gliscor <br \>' + 
-		'<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gliscor.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/goomy.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mudkip.gif">') 
+		'<b>Ace:</b> Gliscor <br \>' +
+		'<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gliscor.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/goomy.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mudkip.gif">')
 },
 sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Sack <br \>' +
-		'<b>Ace:</b> Absol <br \>' + 
-		'Sprite Supplier and helper to Epin<br \>' +	
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
+		'<b>Ace:</b> Absol <br \>' +
+		'Sprite Supplier and helper to Epin<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">')
 },
 giggle: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-           '<img src="http://i.imgur.com/Jw72AwH.jpg">') 
+           '<img src="http://i.imgur.com/Jw72AwH.jpg">')
 },
 website: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
            '<b> The following link is to our current and up to date website with instructions on how to join, challenge, or just read up on the Biblia League <br\>' +
-           '- <a href="http://thebiblialeague.webs.com/">Current Biblia Website</a><br />') 
+           '- <a href="http://thebiblialeague.webs.com/">Current Biblia Website</a><br />')
 },
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Swiss <br \>' +
-		'<b>Ace:</b> Darmanitan <br \>' + 
-		'Your mom knows<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">') 
+		'<b>Ace:</b> Darmanitan <br \>' +
+		'Your mom knows<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">')
 },
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<center><font size="4" color="blue"><b>Elite Four ProteanShakes</b></font color>AKA <font size="4" color="red"<b>Lando</b>' +
-		'<center><b>Ace:</b> Landorus <br \>' + 
-		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">') 
+		'<center><b>Ace:</b> Landorus <br \>' +
+		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">')
 },
 lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Lizard <br \>' +
-		'<b>Ace:</b> Gengar <br \>' + 
-		'Spore is for the weak<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif">') 
+		'<b>Ace:</b> Gengar <br \>' +
+		'Spore is for the weak<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif">')
 },
 pwns: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Pwns <br \>' +
-		'<b>Ace:</b> Gardevoir and Gallade <br \>' + 
-		'Get your Titanic rears in gear and kick some Olympian butt<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gallade.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gardevoir.gif">') 
+		'<b>Ace:</b> Gardevoir and Gallade <br \>' +
+		'Get your Titanic rears in gear and kick some Olympian butt<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gallade.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gardevoir.gif">')
 },
 vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Vain <br \>' +
-		'<b>Ace:</b> Sableye <br \>' + 
-		'I am HIGH PRIEST VATICAN ASSASIN WARLOCK!<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/scrafty.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">') 
+		'<b>Ace:</b> Sableye <br \>' +
+		'I am HIGH PRIEST VATICAN ASSASIN WARLOCK!<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/scrafty.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">')
 },
 radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Radar <br \>' + 
-		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">') 
+                '<b>Trainer:</b> Radar <br \>' +
+		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">')
 },
 enty: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Entalp AKA Talpy<br \>' + 
+                '<b>Trainer:</b> Entalp AKA Talpy<br \>' +
                 '<b>Ace</b> Dragonite<br\>' +
-		'Bitch please, Im Entalp.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite-2.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">') 
+		'Bitch please, Im Entalp.<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite-2.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">')
 },
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
-		'<b>Ace:</b> Kyurem-B <br \>' + 
-		'The greatest things are to be unexpected.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">' ) 
+		'<b>Ace:</b> Kyurem-B <br \>' +
+		'The greatest things are to be unexpected.<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">' )
 },
 hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Hipi <br \>' +
-		'<b>Ace:</b> Sableye <br \>' + 
-		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' ) 
+		'<b>Ace:</b> Sableye <br \>' +
+		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' )
 },
 merikafuckya: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://i.imgur.com/szsGcjs.gif">' ) 
+              '<img src="http://i.imgur.com/szsGcjs.gif">' )
 },
 bye: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://i.imgur.com/ZxRqfGv.gif">' ) 
+              '<img src="http://i.imgur.com/ZxRqfGv.gif">' )
 },
 uwotm8: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://i.imgur.com/KTj5fV4.gif">' ) 
+              '<img src="http://i.imgur.com/KTj5fV4.gif">' )
 },
 america: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-          '<img src="http://i.imgur.com/ki68Pis.jpg">') 
+          '<img src="http://i.imgur.com/ki68Pis.jpg">')
 },
 shep: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Shep <br \>' +
-		'<b>Ace:</b> Mega-Mawile<br \>' + 
-		'Even the hardest armor was once just ore<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/forretress.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aegislash.gif">') 
+		'<b>Ace:</b> Mega-Mawile<br \>' +
+		'Even the hardest armor was once just ore<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/forretress.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aegislash.gif">')
 },
 kyo: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Kyogre <br \>' +
-		'<b>Ace:</b> Manaphy <br \>' + 
+		'<b>Ace:</b> Manaphy <br \>' +
 		'Dont underestimate the drizzle. Its just the calm before the storm<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/tentacruel.gif">')},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<font color="#00cf0a"><font size="4"><b>Champion:</b></font> Epinicion<br\>'  +
-		'<b>Ace:</b> Crustle <br \>' + 
+		'<b>Ace:</b> Crustle <br \>' +
 		'Children need encouragement. So if a kid gets an answer right, tell him it was a lucky guess. That way, he develops a good, lucky feeling. <br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/genesect.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mew.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmonlee.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/treecko.gif">')},
 kota: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Savior:</b> Kota <br \>' + 
+                '<b>Savior:</b> Kota <br \>' +
 		'I host this server, https://gist.github.com/kotarou3/7688036 <br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/pikachu-5.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/victini.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/shaymin.gif">')},
 zeall: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Zeall <br \>' +
-		'<b>Ace:</b> Diggersby-doe <br \>' + 
+		'<b>Ace:</b> Diggersby-doe <br \>' +
 		'Zeall for reall<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/flareon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/diggersby.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cinccino.gif">')},
 lavacadicemoo: function(target, room, user) {
@@ -1095,11 +1095,11 @@ lavacadicemoo: function(target, room, user) {
         },
 heavenldrs: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReplyBox('<font size="4"><b>Heaven Gym Leaders:</b></font><br\><br\>' + 
-                '<font color="#808080"><font size="2"><b>Gym Ldr. Khosro:</b></font> Type - Normal<br\>' + 
-                '<font color="#FF0000"><font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
-                '<font color="#0000FF"><font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
-                '<font color="#e9c900"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
+		this.sendReplyBox('<font size="4"><b>Heaven Gym Leaders:</b></font><br\><br\>' +
+                '<font color="#808080"><font size="2"><b>Gym Ldr. Khosro:</b></font> Type - Normal<br\>' +
+                '<font color="#FF0000"><font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' +
+                '<font color="#0000FF"><font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' +
+                '<font color="#e9c900"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' +
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
                 '<font color="#017f8a"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
@@ -1141,12 +1141,12 @@ hellldrs: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="6"><b>Challenger Information</b></font><br />' +
 		'To challenge the league you must register your team via the /registerteam command, listing your 6 pokemon.<br />' +
-		'Example: /registerteam ProteanShakes, Deoxys-S, Crawdaunt, Landorus, Lucario, Manidibuzz, Slowbro.<br />' + 
-		'When you have registered your team you may begin challenging gym leaders, though you may not change teams.<br />' + 
-		'Once you have collected 14 badges you may select and Elite Four path to challenge.<br />' + 
-		'Upon defeating a champion, you will be added to the hall of fame, which can be viewed via /halloffame.<br />' + 
-		'If you have any questions, PM any E4 and they should be able to assist you.<br />' + 
-		'Thank you for reading this and not spamming chat with questions.<br />' + 
+		'Example: /registerteam ProteanShakes, Deoxys-S, Crawdaunt, Landorus, Lucario, Manidibuzz, Slowbro.<br />' +
+		'When you have registered your team you may begin challenging gym leaders, though you may not change teams.<br />' +
+		'Once you have collected 14 badges you may select and Elite Four path to challenge.<br />' +
+		'Upon defeating a champion, you will be added to the hall of fame, which can be viewed via /halloffame.<br />' +
+		'If you have any questions, PM any E4 and they should be able to assist you.<br />' +
+		'Thank you for reading this and not spamming chat with questions.<br />' +
 		'<font size="3">~Biblia Community</font')
 		},
 	/*********************************************************
@@ -1170,7 +1170,7 @@ hellldrs: function(target, room, user) {
 			this.logModCommand('The Pokemon of the Day was removed by '+user.name+'.');
 		}
 	},
-	
+
 	roll: 'dice',
 	dice: function(target, room, user) {
 		if (!this.canBroadcast()) return;
@@ -1203,7 +1203,7 @@ hellldrs: function(target, room, user) {
 	},
 
 	br: 'banredirect',
-	banredirect: function(){ 
+	banredirect: function(){
 		this.sendReply('/banredirect - This command is obsolete and has been removed.');
 	},
 
@@ -1224,6 +1224,65 @@ hellldrs: function(target, room, user) {
 		if (!this.can('battlemessage')) return false;
 		// secret sysop command
 		room.add(target);
+	},
+
+	/*********************************************************
+	 * Custom commands
+	 *********************************************************/
+
+	reminders: 'reminder',
+	reminder: function(target, room, user) {
+		if (room.type !== 'chat') return this.sendReply("This command can only be used in chatrooms.");
+
+		var parts = target.split(',');
+		var cmd = parts[0].trim().toLowerCase();
+
+		if (cmd in {show:1, view:1, display:1}) {
+			if (!this.canBroadcast()) return;
+			message = "<strong><font size=\"3\">Reminders for " + room.title + ":</font></strong>";
+			if (room.reminders && room.reminders.length > 0)
+				message += '<ol><li>' + room.reminders.join('</li><li>') + '</li></ol';
+			else
+				message += "<br /><br />There are no reminders to display";
+			message += "Contact a room owner, leader, or admin if you have a reminder you would like added.";
+			return this.sendReplyBox(message);
+		}
+
+		if (!this.can('declare', null, room)) return false;
+		if (!room.reminders) room.reminders = room.chatRoomData.reminders = [];
+
+		var index = parseInt(parts[1], 10) - 1;
+		var message = parts.slice(2).join(',').trim();
+		switch (cmd) {
+			case 'add':
+				index = room.reminders.length;
+				message = parts.slice(1).join(',').trim();
+				// Fallthrough
+
+			case 'insert':
+				if (!message) return this.sendReply("Your reminder was empty.");
+				if (message.length > 250) return this.sendReply("Your reminder cannot be greater than 250 characters in length.");
+
+				room.reminders.splice(index, 0, message);
+				Rooms.global.writeChatRoomData();
+				return this.sendReply("Your reminder has been inserted.");
+
+			case 'edit':
+				if (!room.reminders[index]) return this.sendReply("There is no such reminder.");
+				if (!message) return this.sendReply("Your reminder was empty.");
+				if (message.length > 250) return this.sendReply("Your reminder cannot be greater than 250 characters in length.");
+
+				room.reminders[index] = message;
+				Rooms.global.writeChatRoomData();
+				return this.sendReply("The reminder has been modified.");
+
+			case 'delete':
+				if (!room.reminders[index]) return this.sendReply("There is no such reminder.");
+
+				this.sendReply(room.reminders.splice(index, 1)[0]);
+				Rooms.global.writeChatRoomData();
+				return this.sendReply("has been deleted from the reminders.");
+		}
 	},
 
 	/*********************************************************
