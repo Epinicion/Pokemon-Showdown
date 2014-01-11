@@ -315,7 +315,7 @@ exports.Formats = [
 		debug: true,
 		ruleset: ['Team Preview']
 	},
-	
+
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
 
@@ -480,15 +480,6 @@ exports.Formats = [
 		banlist: ['Unreleased', 'Illegal', 'Ignore Illegal Abilities', 'Uber', 'Soul Dew', 'Gengarite', 'Kangaskhanite', 'Slaking', 'Regigigas']
 	},
 	{
-		name: "Gen-NEXT OU",
-		section: "Other Metagames",
-
-		mod: 'gennext',
-		searchShow: false,
-		ruleset: ['Pokemon', 'Standard NEXT', 'Team Preview'],
-		banlist: ['Uber']
-	},
-	{
 		name: "[Gen 5] Glitchmons",
 		section: "Other Metagames",
 
@@ -651,99 +642,5 @@ exports.Formats = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview']
 	},
-
-	// Past Generations
-	///////////////////////////////////////////////////////////////////
-
-	{
-		name: "[Gen 4] OU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen4',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber'],
-		
-		column: 2
-	},
-	{
-		name: "[Gen 4] UU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen4',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'OU', 'BL']
-	},
-	{
-		name: "[Gen 4] Hackmons",
-		section: "Past Generations",
-
-		mod: 'gen4',
-		searchShow: false,
-		ruleset: ['Pokemon', 'HP Percentage Mod'],
-		banlist: []
-	},
-	{
-		name: "[Gen 4] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen4',
-		searchShow: false,
-		debug: true,
-		ruleset: []
-	},
-	{
-		name: "[Gen 3] Hackmons",
-		section: "Past Generations",
-
-		mod: 'gen3',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Pokemon', 'HP Percentage Mod'],
-		banlist: []
-	},
-	{
-		name: "[Gen 3] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen3',
-		searchShow: false,
-		debug: true,
-		ruleset: []
-	},
-	{
-		name: "[Gen 2] OU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen2',
-		debug: true,
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Mean Look + Hypnosis + Perish Song']
-	},
-	{
-		name: "[Gen 2] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen2',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Pokemon']
-	},
-	{
-		name: "[Gen 1] OU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen1',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber']
-	},
-	{
-		name: "[Gen 1] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen1',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Pokemon']
-	}
 
 ];
