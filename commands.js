@@ -364,15 +364,7 @@ var commands = exports.commands = {
 			return connection.sendTo(target, "|noinit|joinfailed|The room '"+target+"' could not be joined.");
 		}
 	},
-}
-		if (target.toLowerCase() == "lobby") {
-			return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><b><font size="5"><u>Welcome to the Biblia League Server!</u></font></b></center><br /> ' +
-			'Insert info here!<br /><br />' +
-			'<b>Useful Commands:</b>Add here.......<br /><br />' +
-			'If you have any questions, issues or concerns should be directed at someone with a rank such as Voice (+), Driver (%), Moderator (@) and Leader (&). <br /><br />' +
-			'Only serious issues or questions should be directed to Administrators (~)');
-		}
-	},
+
 	
 	rb: 'roomban',
 	roomban: function(target, room, user, connection) {
