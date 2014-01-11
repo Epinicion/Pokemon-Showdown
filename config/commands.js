@@ -1241,6 +1241,10 @@ var commands = exports.commands = {
 			matched = true;
 			this.sendReply('/hourmute OR /hm [username], [reason] - Mute user with reason for an hour. Requires: % @ & ~');
 		}
+		if (target === '%' || target === 'daymute' || target === 'dm') {
+			matched = true;
+			this.sendReply('/daymute OR /dm [username], [reason] - Mute user with reason for a day. Requires: % @ & ~');
+		}
 		if (target === '%' || target === 'unmute') {
 			matched = true;
 			this.sendReply('/unmute [username] - Remove mute from user. Requires: % @ & ~');
