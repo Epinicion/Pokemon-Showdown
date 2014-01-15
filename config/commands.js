@@ -949,7 +949,11 @@ var commands = exports.commands = {
 			return this.sendReplyBox('Pokemon, item, move, or ability not found for generation ' + generation.toUpperCase() + '.');
 		}
 	},
-
+epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Epinicion <br \>' +
+		'<b>Ace:</b> Crustle <br \>' + 
+		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
+		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/558.gif" alt="Crustle"/>'+ '<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/625.gif">')},
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
