@@ -949,6 +949,11 @@ var commands = exports.commands = {
 			return this.sendReplyBox('Pokemon, item, move, or ability not found for generation ' + generation.toUpperCase() + '.');
 		}
 	},
+Max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Max <br \>' +
+		'<b>Ace:</b> Gliscor <br \>' + 
+		'Test<br \>' +
+		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif">')},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
