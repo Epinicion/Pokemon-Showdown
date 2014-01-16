@@ -954,12 +954,6 @@ epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'<b>Ace:</b> Crustle <br \>' + 
 		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
 		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/558.gif" alt="Crustle"/>'+ '<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/625.gif">')},
-max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Maxerus <br \>' +
-		'<b>Ace:</b> Gliscor <br \>' + 
-		'Current and one of the longest ever Hell Champion, the immoveable object to Lights unstoppable force<br \>' +
-		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif">')},
-
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
