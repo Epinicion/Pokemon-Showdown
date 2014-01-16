@@ -949,7 +949,7 @@ var commands = exports.commands = {
 			return this.sendReplyBox('Pokemon, item, move, or ability not found for generation ' + generation.toUpperCase() + '.');
 		}
 	},
-Max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Maxerus <br \>' +
 		'<b>Ace:</b> Gliscor <br \>' + 
 		'Test<br \>') 
