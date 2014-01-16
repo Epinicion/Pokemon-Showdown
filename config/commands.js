@@ -950,10 +950,10 @@ var commands = exports.commands = {
 		}
 	},
 Max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Max <br \>' +
+                '<b>Trainer:</b> Maxerus <br \>' +
 		'<b>Ace:</b> Gliscor <br \>' + 
-		'Test<br \>' +
-		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif">')},
+		'Test<br \>') 
+},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
