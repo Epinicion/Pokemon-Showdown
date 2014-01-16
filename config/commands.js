@@ -954,6 +954,11 @@ epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'<b>Ace:</b> Crustle <br \>' + 
 		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
 		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/558.gif" alt="Crustle"/>'+ '<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/625.gif">')},
+Max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+ '<b>Trainer:</b> Maxers <br \>' +
+		'<b>Ace:</b> Gliscor <br \>' + 
+		'Guy who is really really passive, but he's a pretty good champ I guess<br \>' +
+		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif" alt="Gliscor"/>'+ '<img src="http://pldh.net/media/pokemon/gen3/rusa_action/145.gif">')},
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
