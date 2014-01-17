@@ -1446,6 +1446,14 @@ lavacadicemoo: function(target, room, user) {
 		} else if (!matched) {
 			this.sendReply('The command "/'+target+'" was not found. Try /help for general help');
 		}
+  if (target === 'all' || target === 'away') {
+                        matched = true;
+                        this.sendReply('/away - Set yourself as away which will also change your name.');
+                }
+                if (target === 'all' || target === 'back') {
+                        matched = true;
+                        this.sendReply('/back - Marks yourself as back and reverts name back.');
+                }
 	},
 
 };
