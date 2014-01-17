@@ -991,6 +991,12 @@ lando: function(target, room, user) {if (!this.canBroadcast()) return; this.send
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">') 
 },
+lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Lizard <br \>' +
+		'<b>Ace:</b> Gengar <br \>' + 
+		'Spore is for the weak<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif>') 
+},
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
 		'<b>Ace:</b> Kyurem-B <br \>' + 
@@ -1013,6 +1019,10 @@ epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'<b>Ace:</b> Crustle <br \>' + 
 		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">')},
+kota: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Savior:</b> Kota <br \>' + 
+		'I host this server, https://gist.github.com/kotarou3/7688036 <br \>' +
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/pikachu-5.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/victini.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/shaymin.gif">')},
 zeall: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Zeall <br \>' +
 		'<b>Ace:</b> Diggersby-doe <br \>' + 
