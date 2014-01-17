@@ -994,7 +994,7 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
 shep: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Shep <br \>' +
 		'<b>Ace:</b> Mega-Aggron <br \>' + 
-		'Good things come to those who do good.<br \>' +		
+		'Even the hardest armor was once just ore<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/forretress.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aegislash.gif">') 
 },
 kyo: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
