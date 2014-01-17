@@ -952,13 +952,20 @@ var commands = exports.commands = {
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Maxerus <br \>' +
 		'<b>Ace:</b> Gliscor <br \>' + 
-		'Test<br \>') 
+		'<br \>' +		
+'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif">') 
 },
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
 		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
 		'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/558.gif" alt="Crustle"/>'+ '<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/625.gif">')},
+lavacadicemoo: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('La vaca dice moo<br \>' +
+                'The cow says moo!<br \>' +
+                '<img src="http://www.apeconmyth.com/wp-content/uploads/2011/09/moo-cow.gif">')
+        },
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
