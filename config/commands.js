@@ -979,6 +979,12 @@ sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'Sprite Supplier and helper to Epin<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
 },
+kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Swiss <br \>' +
+		'<b>Ace:</b> Darmanitan <br \>' + 
+		'Your mom knows<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">') 
+},
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Lando <br \>' +
 		'<b>Ace:</b> Landorus <br \>' + 
