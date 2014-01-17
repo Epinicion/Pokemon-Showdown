@@ -1222,14 +1222,6 @@ lavacadicemoo: function(target, room, user) {
 			this.sendReply('/calc - Provides a link to a damage calculator');
 			this.sendReply('!calc - Shows everyone a link to a damage calculator. Requires: + % @ & ~');
 		}
-		if (target === 'all' || target === 'blockchallenges' || target === 'away' || target === 'idle') {
-			matched = true;
-			this.sendReply('/away - Blocks challenges so no one can challenge you. Deactivate it with /back.');
-		}
-		if (target === 'all' || target === 'allowchallenges' || target === 'back') {
-			matched = true;
-			this.sendReply('/back - Unlocks challenges so you can be challenged again. Deactivate it with /away.');
-		}
 		if (target === 'all' || target === 'faq') {
 			matched = true;
 			this.sendReply('/faq [theme] - Provides a link to the FAQ. Add deviation, doubles, randomcap, restart, or staff for a link to these questions. Add all for all of them.');
