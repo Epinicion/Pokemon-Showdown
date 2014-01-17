@@ -1012,7 +1012,7 @@ enty: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
                 '<b>Trainer:</b> Entalp AKA Talpy<br \>' + 
                 '<b>Ace</b> Dragonite<br\>' +
 		'Bitch please, Im Entalp.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite-2.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">') 
 },
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
