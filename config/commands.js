@@ -981,7 +981,7 @@ sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 },
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Lando <br \>' +
-		'<b>Ace:</b> Landorous <br \>' + 
+		'<b>Ace:</b> Landorus <br \>' + 
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">') 
 },
@@ -989,6 +989,12 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
                 '<b>Trainer:</b> Strider <br \>' +
 		'<b>Ace:</b> Kyurem-B <br \>' + 
 		'The greatest things are to be unexpected.<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">') 
+},
+shep: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Shep <br \>' +
+		'<b>Ace:</b> Mega-Aggron <br \>' + 
+		'Good things come to those who do good.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">') 
 },
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
