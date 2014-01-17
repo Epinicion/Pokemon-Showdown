@@ -1000,7 +1000,7 @@ shep: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 kyo: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Kyogre <br \>' +
 		'<b>Ace:</b> Manaphy <br \>' + 
-		'Guy who gets antsy for no reason<br \>' +
+		'Don't underestimate the drizzle. It's just the calm before the storm<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/tentacruel.gif">')},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
