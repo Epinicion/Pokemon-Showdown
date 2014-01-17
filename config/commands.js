@@ -973,6 +973,17 @@ max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
 		'<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gliscor.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif">') 
 },
+sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Sack <br \>' +
+		'<b>Ace:</b> Absol <br \>' + 
+		'Sprite Supplier and helper to Epin<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
+},
+lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Lando <br \>' +
+		'<b>Ace:</b> Landorous <br \>' + 
+		'Coding assistant to Epin, annoying when he doesn't ever do anything though<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">') 
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
