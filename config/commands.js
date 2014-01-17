@@ -1438,6 +1438,10 @@ lavacadicemoo: function(target, room, user) {
 		} else if (!matched) {
 			this.sendReply('The command "/'+target+'" was not found. Try /help for general help');
 		}
+ this.sendReply('|raw|'+output);
+                if (!targetUser.connected || targetUser.isAway) {
+                        this.sendReply('|raw|This user is ' + ((!targetUser.connected) ? '<font color = "red">offline</font>.' : '<font color = "orange">away</font>.'));
+                }
   if (target === 'all' || target === 'away') {
                         matched = true;
                         this.sendReply('/away - Set yourself as away which will also change your name.');
