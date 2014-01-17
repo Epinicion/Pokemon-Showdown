@@ -1005,7 +1005,7 @@ vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 },
 radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Radar <br \>' + 
-		'Never gave Epin a quote so she's a butthead that is related to Max, ew.<br \>' +		
+		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">') 
 },
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
