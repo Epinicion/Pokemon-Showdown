@@ -3,18 +3,6 @@
  *********************************************************/
  var christmas = false;
 
- var cronJob = require('cron').CronJob;
-new cronJob('0 0 0 * * *', function(){
-        date = Date();
-        date = date.split(' ');
-        if (date[1] == 'Dec' && date[2] == '25') {
-            christmas = true;
-    }
-    else {
-            christmas = false;
-    }
-}, null, true);
-
 exports.tour = function(t) {
   if (typeof t != "undefined") var tour = t; else var tour = new Object();
         var tourStuff = {
@@ -150,7 +138,7 @@ exports.tour = function(t) {
                                 someid = trid.players[trid.players.length - 1];
                                 var listnames = prelistnames + ' and <b>' + tour.username(someid) + '</b>';
                                 room.addRaw(listnames + ' have joined the tournament.' + tour.remsg(remslots));
-                                
+
                                 trid.playerslogged.push(trid.players[trid.playerslogged.length]);
                                 for (var i = trid.playerslogged.length; i < trid.players.length - 1; i++) { //the length is disturbed by the push above
                                         trid.playerslogged.push(trid.players[i]);
@@ -177,7 +165,7 @@ exports.tour = function(t) {
                                                 if (players[i] == toId(j)) return false;
                                         }
                                 }
-                                for (var i=0; i<players.length; i++) {        
+                                for (var i=0; i<players.length; i++) {
                                         for (var j=0; j<Users.get(uid).getAlts().length; j++) {
                                                 for (var k in Users.get(Users.get(uid).getAlts()[j]).prevNames) {
                                                         if (players[i] == toId(k)) return false;
@@ -597,14 +585,14 @@ var cmds = {
                         // these three assignments (natural, natural, boolean) are done as wished
                         if (isFinite(tour[room.id].size)) {
                         var pplogmarg = Math.ceil(Math.sqrt(tour[room.id].size) / 2);
-                        var logperiod = Math.ceil(Math.sqrt(tour[room.id].size));        
+                        var logperiod = Math.ceil(Math.sqrt(tour[room.id].size));
                         } else {
                         var pplogmarg = (!isNaN(config.tourtimemargin) ? config.tourtimemargin : 3);
                         var logperiod = (config.tourtimeperiod ? config.tourtimeperiod : 4);
                         }
                         var perplayerlog = ( ( tour[room.id].players.length <= pplogmarg ) || ( remslots + 1 <= pplogmarg ) );
                         //
-                        
+
                         if (perplayerlog || (tour[room.id].players.length - tour[room.id].playerslogged.length >= logperiod) || ( remslots <= pplogmarg ) ) {
                                 tour.reportdue(room, connection);
                         } else {
@@ -764,7 +752,7 @@ var cmds = {
                         if (unfound.length) return this.sendReply("The following users are offline or lack pending battles: " + unfound.toString());
                 }
         },
-        
+
         viewround: function(target, room, user, connection) {
                 if (!this.canBroadcast()) return;
                 if (room.decision) return this.sendReply('Prof. Oak: There is a time and place for everything! You cannot do this in battle rooms.');
@@ -915,7 +903,7 @@ var cmds = {
                 if (!target) return this.sendReply('Proper syntax for this command is: /replace user1, user2.  User 2 will replace User 1 in the current tournament.');
                 var t = tour.splint(target);
                 if (!t[1]) return this.sendReply('Proper syntax for this command is: /replace user1, user2.  User 2 will replace User 1 in the current tournament.');
-                var userOne = Users.get(t[0]); 
+                var userOne = Users.get(t[0]);
                 var userTwo = Users.get(t[1]);
                 if (!userTwo) {
                         return this.sendReply('Proper syntax for this command is: /replace user1, user2.  The user you specified to be placed in the tournament is not present!');
@@ -1005,14 +993,14 @@ var cmds = {
         },
 
         tourbats: function(target, room, user) {
-                if (!tour[room.id].status) return this.sendReply('There is no active tournament in this room.');        
+                if (!tour[room.id].status) return this.sendReply('There is no active tournament in this room.');
                 if (target == 'all') {
                         if (tour[room.id].battlesended.length == 0) return this.sendReply('No finished tournament battle is registered.');
                         var msg = new Array();
                         for (var i=0; i<tour[room.id].battlesended.length; i++) {
                                 msg[i] = "<a href='/" + tour[room.id].battlesended[i] + "' class='ilink'>" + tour[room.id].battlesended[i].match(/\d+$/) + "</a>";
                         }
-                        return this.sendReplyBox(msg.toString());                        
+                        return this.sendReplyBox(msg.toString());
                 } else if (target == 'invtie') {
                         if (!tour[room.id].status) return this.sendReply('There is no active tournament in this room.');
                         if (tour[room.id].battlesinvtie.length == 0) return this.sendReply('No battle in this tournament has ended in a tie or been invalidated.');
@@ -1057,14 +1045,14 @@ var cmds = {
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox("Click <a href='http://elloworld.dyndns.org/documentation.html'>here</a> to be taken to the documentation for the tournament commands.");
         },
-        
+
         survey: 'poll',
         poll: function(target, room, user) {
                 if (!tour.lowauth(user,room)) return this.sendReply('You do not have enough authority to use this command.');
                 if (tour[room.id].question) return this.sendReply('There is currently a poll going on already.');
                 var separacion = "&nbsp;&nbsp;";
                 var answers = tour.splint(target);
-                formats = ''; 
+                formats = '';
                 for (var u in Tools.data.Formats) {
                         if (Tools.data.Formats[u].name && Tools.data.Formats[u].challengeShow) formats = formats+','+Tools.data.Formats[u].name;
                 }
@@ -1079,7 +1067,7 @@ var cmds = {
                 tour[room.id].usergroup = config.groupsranking.indexOf(user.group);
                 room.addRaw('<div class="infobox"><h2>' + tour[room.id].question + separacion + '<font size=2 color = "#939393"><small>/vote OPTION<br /><i><font size=1>Poll started by '+user.name+'</font size></i></small></font></h2><hr />' + separacion + separacion + " &bull; " + tour[room.id].answerList.join(' &bull; ') + '</div>');
         },
-        
+
         vote: function(target, room, user) {
                 var ips = JSON.stringify(user.ips);
                 if (!tour[room.id].question) return this.sendReply('There is no poll currently going on in this room.');
@@ -1088,12 +1076,12 @@ var cmds = {
                 tour[room.id].answers[ips] = target.toLowerCase();
                 return this.sendReply('You are now voting for ' + target + '.');
         },
-        
+
         votes: function(target, room, user) {
                 if (!this.canBroadcast()) return;
                 this.sendReply('NUMBER OF VOTES: ' + Object.keys(tour[room.id].answers).length);
         },
-        
+
         endsurvey: 'endpoll',
         ep: 'endpoll',
         endpoll: function(target, room, user) {
@@ -1105,7 +1093,7 @@ var cmds = {
                         tour[room.id].question = undefined;
                         tour[room.id].answerList = new Array();
                         tour[room.id].answers = new Object();
-                        return room.addRaw("<h3>The poll was canceled because of lack of voters.</h3>");                        
+                        return room.addRaw("<h3>The poll was canceled because of lack of voters.</h3>");
                 }
                 var options = new Object();
                 var obj = tour[room.id];
@@ -1125,7 +1113,7 @@ var cmds = {
                 tour[room.id].answerList = new Array();
                 tour[room.id].answers = new Object();
         },
-        
+
         pollremind: 'pr',
         pr: function(target, room, user) {
                 var separacion = "&nbsp;&nbsp;";
@@ -1219,7 +1207,7 @@ Rooms.BattleRoom.prototype.joinBattle = function(user, team) {
                         return;
                 }
         }
-        
+
         if (this.tournament) {
                 if (this.p1.userid === user.userid) {
                         slot = 0;
@@ -1229,7 +1217,7 @@ Rooms.BattleRoom.prototype.joinBattle = function(user, team) {
                         return;
                 }
         }
-        
+
         this.battle.join(user, slot, team);
         Rooms.global.battleCount += (this.battle.active?1:0) - (this.active?1:0);
         this.active = this.battle.active;
@@ -1238,7 +1226,7 @@ Rooms.BattleRoom.prototype.joinBattle = function(user, team) {
                 this.send('|title|'+this.title);
         }
         this.update();
-        
+
         if (this.parentid) {
                 Rooms.get(this.parentid).updateRooms();
         }
