@@ -985,6 +985,12 @@ lando: function(target, room, user) {if (!this.canBroadcast()) return; this.send
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">') 
 },
+strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Strider <br \>' +
+		'<b>Ace:</b> Kyurem-B <br \>' + 
+		'The greatest things are to be unexpected.<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">') 
+},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
