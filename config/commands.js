@@ -971,7 +971,7 @@ max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
                 '<b>Trainer:</b> Maxerus <br \>' +
 		'<b>Ace:</b> Gliscor <br \>' + 
 		'<br \>' +		
-'<img src="http://pldh.net/media/pokemon/gen5/blackwhite_animated_front/472.gif">') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gliscor.gif">') 
 },
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
