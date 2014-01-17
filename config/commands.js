@@ -1438,6 +1438,14 @@ lavacadicemoo: function(target, room, user) {
 		} else if (!matched) {
 			this.sendReply('The command "/'+target+'" was not found. Try /help for general help');
 		}
+ /*if (target === 'all' || target === 'blockchallenges' || target === 'idle') {
+                        matched = true;
+                        this.sendReply('/away - Blocks challenges so no one can challenge you. Deactivate it with /back.');
+                }
+                if (target === 'all' || target === 'allowchallenges') {
+                        matched = true;
+                        this.sendReply('/back - Unlocks challenges so you can be challenged again. Deactivate it with /away.');
+                }*/
  this.sendReply('|raw|'+output);
                 if (!targetUser.connected || targetUser.isAway) {
                         this.sendReply('|raw|This user is ' + ((!targetUser.connected) ? '<font color = "red">offline</font>.' : '<font color = "orange">away</font>.'));
