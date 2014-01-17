@@ -995,7 +995,7 @@ lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
                 '<b>Trainer:</b> Lizard <br \>' +
 		'<b>Ace:</b> Gengar <br \>' + 
 		'Spore is for the weak<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif>') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif">') 
 },
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
