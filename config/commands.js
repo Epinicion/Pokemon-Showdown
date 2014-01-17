@@ -983,7 +983,7 @@ lando: function(target, room, user) {if (!this.canBroadcast()) return; this.send
                 '<b>Trainer:</b> Lando <br \>' +
 		'<b>Ace:</b> Landorous <br \>' + 
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">') 
 },
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
@@ -996,6 +996,11 @@ epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'<b>Ace:</b> Crustle <br \>' + 
 		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">')},
+zeall: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Zeall <br \>' +
+		'<b>Ace:</b> Diggersby-doe <br \>' + 
+		'Zeall for reall<br \>' +
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/diggersby.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/smeargle.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cinccino.gif">')},
 lavacadicemoo: function(target, room, user) {
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox('La vaca dice moo<br \>' +
