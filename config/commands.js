@@ -1003,6 +1003,11 @@ vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'I am HIGH PRIEST VATICAN ASSASIN WARLOCK!<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/scrafty.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">') 
 },
+radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Radar <br \>' + 
+		'Never gave Epin a quote so she's a butthead that is related to Max, ew.<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">') 
+},
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
 		'<b>Ace:</b> Kyurem-B <br \>' + 
