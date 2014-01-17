@@ -1008,6 +1008,12 @@ radar: function(target, room, user) {if (!this.canBroadcast()) return; this.send
 		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">') 
 },
+enty: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Entalp AKA Talpy<br \>' + 
+                '<b>Ace</b> Dragonite<br\>' +
+		'Bitch please, Im Entalp.<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">') 
+},
 strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Strider <br \>' +
 		'<b>Ace:</b> Kyurem-B <br \>' + 
