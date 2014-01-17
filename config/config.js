@@ -136,6 +136,7 @@ exports.herokuhack = false;
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
+        'ProteanShakes':'http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif'
         //'userid': 'customavatar.png'
 };
 
