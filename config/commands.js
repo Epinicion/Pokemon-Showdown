@@ -969,7 +969,7 @@ var commands = exports.commands = {
 kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> KOTS <br \>' +
 		'<b>Ace:</b> Magnezone <br \>' + 
-		'I go hard like a mothaf****n liquid swords<br \>' +
+		'I go hard like mothaf****n liquid swords<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magnezone.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">')
 		},
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
