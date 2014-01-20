@@ -1032,7 +1032,7 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">' ) 
 },
 uwotm8: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://static.fjcdn.com/pictures/u%2Bwot%2Bm8.%2Bi%2Bhaven%2Bt%2Bseen%2Bthis%2Bon%2Bhere%2Bbut%2Bthen_291b86_4298280.jpg">' ) 
+              '<img src="http://i.imgur.com/KTj5fV4.gif">' ) 
 },
 america: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
           '<img src="http://i.imgur.com/ki68Pis.jpg">') 
