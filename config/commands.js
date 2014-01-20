@@ -984,6 +984,9 @@ sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'Sprite Supplier and helper to Epin<br \>' +	
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
 },
+giggle: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+           '<img src="http://i.imgur.com/Jw72AwH.jpg">') 
+},
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Swiss <br \>' +
 		'<b>Ace:</b> Darmanitan <br \>' + 
