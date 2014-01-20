@@ -966,7 +966,12 @@ var commands = exports.commands = {
         /***************************************
         * Trainer Cards *
         ***************************************/
-
+kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> KOTS <br \>' +
+		'<b>Ace:</b> Magnezone <br \>' + 
+		'I go hard like a muta flippin liquid sword<br \>' +
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magnezone.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">')
+		},
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Maxerus <br \>' +
 		'<b>Ace:</b> Gliscor <br \>' + 
@@ -976,7 +981,8 @@ max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
 sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Sack <br \>' +
 		'<b>Ace:</b> Absol <br \>' + 
-		'Sprite Supplier and helper to Epin<br \>' +		
+		'Sprite Supplier and helper to Epin<br \>' +
+		'<b>Quote:</b> Grinding my Geodude<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
 },
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
