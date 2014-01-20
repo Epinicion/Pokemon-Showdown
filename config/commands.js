@@ -1055,7 +1055,7 @@ epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
 		'I woke up in the morning, Hard like morning wood in the morning<br \>' +
-		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mudkip.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mew.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmonlee.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">')},
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/volcarona.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mew.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmonlee.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">')},
 kota: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Savior:</b> Kota <br \>' + 
 		'I host this server, https://gist.github.com/kotarou3/7688036 <br \>' +
