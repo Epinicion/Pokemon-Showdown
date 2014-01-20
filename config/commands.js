@@ -969,7 +969,7 @@ var commands = exports.commands = {
 kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> KOTS <br \>' +
 		'<b>Ace:</b> Magnezone <br \>' + 
-		'I go hard like a muta flippin liquid sword<br \>' +
+		'I go hard like a mothaf****n liquid swords<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magnezone.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/greninja.gif">')
 		},
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
@@ -981,8 +981,7 @@ max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
 sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Sack <br \>' +
 		'<b>Ace:</b> Absol <br \>' + 
-		'Sprite Supplier and helper to Epin<br \>' +
-		'<b>Quote:</b> Grinding my Geodude<br \>' +		
+		'Sprite Supplier and helper to Epin<br \>' +	
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol.gif">') 
 },
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
@@ -1046,7 +1045,7 @@ kyo: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Epinicion <br \>' +
 		'<b>Ace:</b> Crustle <br \>' + 
-		'Overly political guy who constantly pisses off Lights and has a strange obsession with crustle<br \>' +
+		'I woke up in the morning, Hard like morning wood in the morning<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">')},
 kota: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Savior:</b> Kota <br \>' + 
