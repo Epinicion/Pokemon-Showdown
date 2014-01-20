@@ -1031,9 +1031,12 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
 		'The greatest things are to be unexpected.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">') 
 },
+america: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+          '<img src="http://i.imgur.com/ki68Pis.jpg">') 
+},
 shep: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Shep <br \>' +
-		'<b>Ace:</b> Mega-Aggron <br \>' + 
+		'<b>Ace:</b> Mega-Mawile<br \>' + 
 		'Even the hardest armor was once just ore<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/forretress.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aegislash.gif">') 
 },
