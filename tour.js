@@ -336,7 +336,7 @@ exports.tour = function(t) {
                                         tooSmall += '(this is not an official chatroom)';
                                 }
                                 //end tour
-                                Rooms.rooms[rid].addRaw('<h2><font color="green">Congratulations <font color="black">' + Users.users[w[0]].name + '</font>!  You have won the ' + Tools.data.Formats[tour[rid].tier].name + ' Tournament!<br>You have also won ' + tourMoney + ' Frost ' + p + '! ' + tooSmall + '</font></h2>' + '<br><font color="blue"><b>SECOND PLACE:</b></font> ' + Users.users[l[0]].name + '<hr />');
+                                Rooms.rooms[rid].addRaw('<h2><font color="green">Congratulations <font color="black">' + Users.users[w[0]].name + '</font>!  You have won the ' + Tools.data.Formats[tour[rid].tier].name + ' Tournament!<br>You have also won ' + tourMoney + ' Biblia ' + p + '! ' + tooSmall + '</font></h2>' + '<br><font color="blue"><b>SECOND PLACE:</b></font> ' + Users.users[l[0]].name + '<hr />');
                                 if (tour[rid].size >= 8) {
                                         try {
                                                 frostcommands.addTourWin(Users.users[w[0]].name, Tools.data.Formats[tour[rid].tier].name); //for recording tour stats
