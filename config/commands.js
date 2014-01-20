@@ -1064,7 +1064,7 @@ zeall: function(target, room, user) {if (!this.canBroadcast()) return; this.send
                 '<b>Trainer:</b> Zeall <br \>' +
 		'<b>Ace:</b> Diggersby-doe <br \>' + 
 		'Zeall for reall<br \>' +
-		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/diggersby.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/smeargle.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cinccino.gif">')},
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/flareon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/diggersby.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cinccino.gif">')},
 lavacadicemoo: function(target, room, user) {
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox('La vaca dice moo<br \>' +
