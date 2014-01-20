@@ -221,7 +221,7 @@ exports.tour = function(t) {
                                 tour[rid].history.push(r[key][winner] + "|" + r[key][loser]);
                                 if (tour[rid].size >= 8) {
                                         try {
-                                                frostcommands.addTourLoss(loser, tier); //for recording tour stats
+                                                bibliacommands.addTourLoss(loser, tier); //for recording tour stats
                                         } catch (e) {
                                                 console.log('Error recording tournament loss: '+e.stack);
                                         }
@@ -312,7 +312,7 @@ exports.tour = function(t) {
                         if (w.length == 1) {
                                 var tourMoney = 0;
                                 var tooSmall = '';
-                                var p = 'bucks';
+                                var p = 'coins';
                                 if (Rooms.rooms[rid].isOfficial) {
                                         if (tour[rid].size >= 32) {
                                                 tourMoney = 3;
@@ -339,7 +339,7 @@ exports.tour = function(t) {
                                 Rooms.rooms[rid].addRaw('<h2><font color="green">Congratulations <font color="black">' + Users.users[w[0]].name + '</font>!  You have won the ' + Tools.data.Formats[tour[rid].tier].name + ' Tournament!<br>You have also won ' + tourMoney + ' Biblia ' + p + '! ' + tooSmall + '</font></h2>' + '<br><font color="blue"><b>SECOND PLACE:</b></font> ' + Users.users[l[0]].name + '<hr />');
                                 if (tour[rid].size >= 8) {
                                         try {
-                                                frostcommands.addTourWin(Users.users[w[0]].name, Tools.data.Formats[tour[rid].tier].name); //for recording tour stats
+                                                bibliacommands.addTourWin(Users.users[w[0]].name, Tools.data.Formats[tour[rid].tier].name); //for recording tour stats
                                                 } catch (e) {
                                                 console.log('Error recording tournament win: '+e.stack);
                                         }
