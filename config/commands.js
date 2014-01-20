@@ -997,6 +997,12 @@ lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 		'Spore is for the weak<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/nidoking.gif">') 
 },
+pwns: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Pwns <br \>' +
+		'<b>Ace:</b> Gardevoir and Gallade <br \>' + 
+		'Get your Titanic rears in gear and kick some Olympian butt<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gallade.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gardevoir.gif">') 
+},
 vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Vain <br \>' +
 		'<b>Ace:</b> Sableye <br \>' + 
