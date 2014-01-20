@@ -1029,7 +1029,7 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
                 '<b>Trainer:</b> Strider <br \>' +
 		'<b>Ace:</b> Kyurem-B <br \>' + 
 		'The greatest things are to be unexpected.<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">' ) 
 },
 america: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
           '<img src="http://i.imgur.com/ki68Pis.jpg">') 
