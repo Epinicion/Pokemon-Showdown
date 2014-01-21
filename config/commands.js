@@ -1040,8 +1040,8 @@ hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' ) 
 },
-muricafuckyeah: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://mgx.com/blogs/wp-content/uploads/2013/11/no.jpeg">' ) 
+claudia: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+              '<img src="http://i.imgur.com/m9Oq1Nr.jpg">' +'<img src="http://i.imgur.com/VUBYY2K.jpg">' ) 
 },
 uwotm8: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
               '<img src="http://i.imgur.com/KTj5fV4.gif">' ) 
