@@ -997,7 +997,7 @@ lando: function(target, room, user) {if (!this.canBroadcast()) return; this.send
                 '<b>Trainer:</b> Lando <br \>' +
 		'<b>Ace:</b> Landorus <br \>' + 
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmontop.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">') 
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">') 
 },
 lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Lizard <br \>' +
