@@ -1034,6 +1034,12 @@ strider: function(target, room, user) {if (!this.canBroadcast()) return; this.se
 		'The greatest things are to be unexpected.<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">' ) 
 },
+hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Hipi <br \>' +
+		'<b>Ace:</b> Sableye <br \>' + 
+		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +		
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' ) 
+},
 uwotm8: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
               '<img src="http://i.imgur.com/KTj5fV4.gif">' ) 
 },
