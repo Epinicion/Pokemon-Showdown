@@ -966,6 +966,12 @@ var commands = exports.commands = {
         /***************************************
         * Trainer Cards *
         ***************************************/
+blak: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Soaring BlakAir <br \>' +
+		'<b>Ace:</b> Mega-Gyarados <br \>' + 
+		'The struggle is real (oi). Unless there is food involved.<br \>' +
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gyarados-mega.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/staraptor.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sceptile.gif">')
+		},
 kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> KOTS <br \>' +
 		'<b>Ace:</b> Magnezone <br \>' + 
