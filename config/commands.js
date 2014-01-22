@@ -1092,7 +1092,7 @@ lavacadicemoo: function(target, room, user) {
 heavenldrs: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="4"><b>Heaven Gym Leaders:</b></font><br\><br\>' + 
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Normal<br\>' + 
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Normal<br\>' + 
                 '<font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
                 '<font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
                 '<font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
@@ -1104,12 +1104,12 @@ heavenldrs: function(target, room, user) {
                 '<font size="2"><b>Gym Ldr. Skye:</b></font> Type - Flying<br\>' +
                 '<font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
                 '<font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Rock<br\>' +
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Ghost<br\>' +
                 '<font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' +)
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Steel<br\>' +
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Fairy<br\>' +)
 		},
 	/*********************************************************
 	 * Miscellaneous commands
