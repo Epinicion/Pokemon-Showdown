@@ -1089,6 +1089,22 @@ lavacadicemoo: function(target, room, user) {
                 'The cow says moo!<br \>' +
                 '<img src="http://www.apeconmyth.com/wp-content/uploads/2011/09/moo-cow.gif">')
         },
+heavene4: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<font size="4"><b>Heaven Gym Leaders:</b></font><br\><br\>' + 
+                '<font size="2"><b>?????:</b></font> Type - Normal<br\>' + 
+                '<font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
+                '<font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
+                '<font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +)
+		},
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
