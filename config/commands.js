@@ -1109,7 +1109,7 @@ heavenldrs: function(target, room, user) {
                 '<font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
                 '<font size="2"><b>Gym Ldr. :</b></font> Type - Steel<br\>' +
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Fairy<br\>' +)
+                '<font size="2"><b>Gym Ldr. :</b></font> Type - Fairy<br\>')
 		},
 	/*********************************************************
 	 * Miscellaneous commands
