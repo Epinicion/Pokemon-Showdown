@@ -136,7 +136,7 @@ exports.herokuhack = false;
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
-	'proteanshakes':'ProteanShakes.gif';
+	'e4proteanshakes':'proteanshakes.gif';
 	//'userid': 'customavatar.png'
 };
 
