@@ -1099,7 +1099,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#808080"><font size="2"><b>Gym Ldr. Khosro:</b></font> Type - Normal<br\>' + 
                 '<font color="#FF0000"><font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
                 '<font color="#0000FF"><font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
-                '<font color="#FFFF00"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
+                '<font color="#e9c900"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
                 '<font color="#017f8a"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
@@ -1107,7 +1107,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
                 '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. Myst:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
-                '<font color="#D2691E"><font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
+                '<font color="#00b818"><font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
                 '<font color="#D2B48C"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
@@ -1121,7 +1121,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#808080"><font size="2"><b>Gym Ldr. Zeall:</b></font> Type - Normal<br\>' +
                 '<font color="#FF0000"><font size="2"><b>Gym Ldr. Zanryu:</b></font> Type - Fire<br\>' +
                 '<font color="#0000FF"><font size="2"><b>Gym Ldr. K0TS:</b></font> Type - Water<br\>' +
-                '<font color="#FFFF00"><font size="2"><b>Gym Ldr. Spasm:</b></font> Type - Electric<br\>' +
+                '<font color="#e9c900"><font size="2"><b>Gym Ldr. Spasm:</b></font> Type - Electric<br\>' +
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Wrath:</b></font> Type - Grass<br\>' +
                 '<font color="#017f8a"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ice<br\>' +
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. Reaper:</b></font> Type - Fighting<br\>' +
@@ -1129,7 +1129,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Asce:</b></font> Type - Ground<br\>' +
                 '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. SaysHi:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Psychic<br\>' +
-                '<font color="#D2691E"><font size="2"><b>Gym Ldr. Ortex:</b></font> Type - Bug<br\>' +
+                '<font color="#00b818"><font size="2"><b>Gym Ldr. Ortex:</b></font> Type - Bug<br\>' +
                 '<font color="#D2B48C"><font size="2"><b>Gym Ldr. Walt:</b></font> Type - Rock<br\>' +
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. Hipi:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
