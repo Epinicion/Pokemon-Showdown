@@ -995,7 +995,7 @@ giggle: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 },
 website: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
            '<b> The following link is to our current and up to date website with instructions on how to join, challenge, or just read up on the Biblia League <br\>' +
-           '</b> http://thebiblialeague.webs.com <br\>') 
+           '- <a href="http://thebiblialeague.webs.com/">Current Biblia Website</a><br />') 
 },
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Swiss <br \>' +
