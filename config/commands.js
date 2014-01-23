@@ -1050,7 +1050,7 @@ merikafuckya: function(target, room, user) {if (!this.canBroadcast()) return; th
               '<img src="http://i.imgur.com/szsGcjs.gif">' ) 
 },
 bye: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-              '<img src="http://i.imgur.com/ZxRqfGv.gif>' ) 
+              '<img src="http://i.imgur.com/ZxRqfGv.gif">' ) 
 },
 uwotm8: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
               '<img src="http://i.imgur.com/KTj5fV4.gif">' ) 
