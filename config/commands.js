@@ -1101,8 +1101,8 @@ heavenldrs: function(target, room, user) {
                 '<font color="#0000FF"><font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
                 '<font color="#FFFF00"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
-                '<font color="#AFEEEE"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
-                '<font color="#017f8a"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
+                '<font color="#017f8a"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
+                '<font color="#ea7500"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
                 '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. Myst:</b></font> Type - Flying<br\>' +
@@ -1123,8 +1123,8 @@ hellldrs: function(target, room, user) {
                 '<font color="#0000FF"><font size="2"><b>Gym Ldr. K0TS:</b></font> Type - Water<br\>' +
                 '<font color="#FFFF00"><font size="2"><b>Gym Ldr. Spasm:</b></font> Type - Electric<br\>' +
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Wrath:</b></font> Type - Grass<br\>' +
-                '<font color="#AFEEEE"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ice<br\>' +
-                '<font color="#017f8a"><font size="2"><b>Gym Ldr. Reaper:</b></font> Type - Fighting<br\>' +
+                '<font color="#017f8a"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ice<br\>' +
+                '<font color="#ea7500"><font size="2"><b>Gym Ldr. Reaper:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. Lizard:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Asce:</b></font> Type - Ground<br\>' +
                 '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. SaysHi:</b></font> Type - Flying<br\>' +
