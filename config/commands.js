@@ -1092,24 +1092,24 @@ lavacadicemoo: function(target, room, user) {
 heavenldrs: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="4"><b>Heaven Gym Leaders:</b></font><br\><br\>' + 
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Normal<br\>' + 
-                '<font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
-                '<font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
-                '<font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
-                '<font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
-                '<font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
-                '<font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
-                '<font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
-                '<font size="2"><b>Gym Ldr. Skye:</b></font> Type - Flying<br\>' +
-                '<font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
-                '<font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Rock<br\>' +
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Ghost<br\>' +
-                '<font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
-                '<font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Steel<br\>' +
-                '<font size="2"><b>Gym Ldr. :</b></font> Type - Fairy<br\>')
+                '<font color="#808080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Normal<br\>' + 
+                '<font color="#FF0000"><font size="2"><b>Gym Ldr. Kswiss:</b></font> Type - Fire<br\>' + 
+                '<font color="#0000FF"><font size="2"><b>Gym Ldr. Splash:</b></font> Type - Water<br\>' + 
+                '<font color="#FFFF00"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' + 
+                '<font color="#008000"><font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
+                '<font color="#AFEEEE"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
+                '<font color="#00FFFF"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
+                '<font color="#800080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
+                '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
+                '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. Skye:</b></font> Type - Flying<br\>' +
+                '<font color="#FF00FF"><font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
+                '<font color="#D2691E"><font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
+                '<font color="#D2B48C"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
+                '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
+                '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
+                '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
+                '<font color="#D3D3D3"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
+                '<font color="#FFC0CB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
 	/*********************************************************
 	 * Miscellaneous commands
