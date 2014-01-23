@@ -993,6 +993,10 @@ sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 giggle: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
            '<img src="http://i.imgur.com/Jw72AwH.jpg">') 
 },
+website: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+           '<b> The following link is to our current and up to date website with instructions on how to join, challenge, or just read up on the Biblia League <br\>' +
+           '</b> http://thebiblialeague.webs.com <br\>') 
+},
 kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Swiss <br \>' +
 		'<b>Ace:</b> Darmanitan <br \>' + 
