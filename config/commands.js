@@ -1112,8 +1112,8 @@ heavenldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font color="#D3D3D3"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
-                '<font color="#FFC0CB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
+                '<font color="#9e979c"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
+                '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
 hellldrs: function(target, room, user) {
                 if (!this.canBroadcast()) return;
@@ -1134,8 +1134,8 @@ hellldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. Hipi:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Vain:</b></font> Type - Dark<br\>' +
-                '<font color="#D3D3D3"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
-                '<font color="#FFC0CB"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
+                '<font color="#9e979c"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
+                '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
                 },
 	/*********************************************************
 	 * Miscellaneous commands
