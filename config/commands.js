@@ -1004,8 +1004,8 @@ kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">') 
 },
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Lando <br \>' +
-		'<b>Ace:</b> Landorus <br \>' + 
+                '<center><font size="4" color="blue"><b>Elite Four ProteanShakes</b></font color>AKA <font size="4" color="red"<b>Lando</b>' +
+		'<center><b>Ace:</b> Landorus <br \>' + 
 		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +		
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">') 
 },
