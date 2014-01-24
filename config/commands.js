@@ -1119,13 +1119,14 @@ heavene4: function(target, room, user) {
 		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\>' +
                 '<font color="#00adf1"><font size="2"><b>Elite Four Entalp:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Elite Four Video:</b></font> Type - Psychic<br\><br\>' +
+                '<font color="#808080"><font size="2"><b>Elite Four Zeall:</b></font> Type - Normal<br\><br\>' +
             '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\>' +
                 '<font color="#00b818"><font size="3"><b>Champion Epin:</b></font> Type - Bug<br\>')
 		},
 hellldrs: function(target, room, user) {
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox('<font size="4"><b>Hell Gym Leaders:</b></font><br\><br\>' +
-                '<font color="#808080"><font size="2"><b>Gym Ldr. Zeall:</b></font> Type - Normal<br\>' +
+                '<font color="#808080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Normal<br\>' +
                 '<font color="#FF0000"><font size="2"><b>Gym Ldr. Zanryu:</b></font> Type - Fire<br\>' +
                 '<font color="#0000FF"><font size="2"><b>Gym Ldr. K0TS:</b></font> Type - Water<br\>' +
                 '<font color="#e9c900"><font size="2"><b>Gym Ldr. Spasm:</b></font> Type - Electric<br\>' +
