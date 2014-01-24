@@ -1104,7 +1104,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. Christ:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
-                '<font color="#00adf1"><font size="2"><b>Gym Ldr. Myst:</b></font> Type - Flying<br\>' +
+                '<font color="#00adf1"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
                 '<font color="#00b818"><font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
                 '<font color="#6a4f3d"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
