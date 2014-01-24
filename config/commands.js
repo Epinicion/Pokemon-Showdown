@@ -1120,7 +1120,7 @@ heavene4: function(target, room, user) {
 		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\><br\>' +
                 '<font color="#00adf1"><font size="2"><b>Elite Four Entalp:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Elite Four Video:</b></font> Type - Psychic<br\>' +
-            '<font size="4"><b>Heaven Champion:</b></font><br\><br\>' +
+            '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\><br\>' +
                 '<font color="#00b818"><font size="3"><b>Champion Epin:</b></font> Type - Bug<br\>')
 		},
 hellldrs: function(target, room, user) {
