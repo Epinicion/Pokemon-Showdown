@@ -1137,7 +1137,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#9e979c"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
                 },
-}, challengerinfo: function(target, room, user) {
+	challengerinfo: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="6"><b>Challenger Information</b></font><br />' +
 		'To challenge the league you must register your team via the /registerteam command, listing your 6 pokemon.<br />' +
