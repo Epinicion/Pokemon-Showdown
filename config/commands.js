@@ -1191,6 +1191,33 @@ afk: 'away',
 
 		user.updateIdentity();
 	},
+	back: function(target, room, user, connection) {
+		if (!this.can('lock')) return false;
+
+		if (user.isAway) {
+
+			var name = user.name;
+
+			var newName = name.substr(0, name.length - 7);
+			
+			//delete the user object with the new name in case it exists - if it does it can cause issues with forceRename
+			delete Users.get(newName);
+
+			user.forceRename(newName, undefined, true);
+			
+			//user will be authenticated
+			user.authenticated = true;
+			
+			this.add('|raw|-- <b><font color="#4F86F7">' + newName + '</font color></b> is no longer away');
+
+			user.isAway = false;
+		}
+		else {
+			return this.sendReply('You are not set as away');
+		}
+
+		user.updateIdentity();
+	},
 	birkal: function(target, room, user) {
 		this.sendReply("It's not funny anymore.");
 	},
