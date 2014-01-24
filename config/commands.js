@@ -1137,6 +1137,18 @@ hellldrs: function(target, room, user) {
                 '<font color="#9e979c"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
                 },
+}, challengerinfo: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<font size="6"><b>Challenger Information</b></font><br />' +
+		'To challenge the league you must register your team via the /registerteam command, listing your 6 pokemon.<br />' +
+		'Example: /registerteam ProteanShakes, Deoxys-S, Crawdaunt, Landorus, Lucario, Manidibuzz, Slowbro.<br />' + 
+		'When you have registered your team you may begin challenging gym leaders, though you may not change teams.<br />' + 
+		'Once you have collected 14 badges you may select and Elite Four path to challenge.<br />' + 
+		'Upon defeating a champion, you will be added to the hall of fame, which can be viewed via /halloffame.<br />' + 
+		'If you have any questions, PM any E4 and they should be able to assist you.<br />' + 
+		'Thank you for reading this and not spamming chat with questions.<br />' + 
+		'<font size="3">~Biblia Community</font')
+		},
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
