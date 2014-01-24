@@ -1105,10 +1105,10 @@ heavenldrs: function(target, room, user) {
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
-                '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. Myst:</b></font> Type - Flying<br\>' +
+                '<font color="#00adf1"><font size="2"><b>Gym Ldr. Myst:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. Topper:</b></font> Type - Psychic<br\>' +
                 '<font color="#00b818"><font size="2"><b>Gym Ldr. Wolv:</b></font> Type - Bug<br\>' +
-                '<font color="#D2B48C"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
+                '<font color="#6a4f3d"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
@@ -1127,10 +1127,10 @@ hellldrs: function(target, room, user) {
                 '<font color="#ea7500"><font size="2"><b>Gym Ldr. Reaper:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. Lizard:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Asce:</b></font> Type - Ground<br\>' +
-                '<font color="#B0C4DE"><font size="2"><b>Gym Ldr. SaysHi:</b></font> Type - Flying<br\>' +
+                '<font color="#00adf1"><font size="2"><b>Gym Ldr. SaysHi:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Psychic<br\>' +
                 '<font color="#00b818"><font size="2"><b>Gym Ldr. Ortex:</b></font> Type - Bug<br\>' +
-                '<font color="#D2B48C"><font size="2"><b>Gym Ldr. Walt:</b></font> Type - Rock<br\>' +
+                '<font color="#6a4f3d"><font size="2"><b>Gym Ldr. Walt:</b></font> Type - Rock<br\>' +
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. Hipi:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Vain:</b></font> Type - Dark<br\>' +
