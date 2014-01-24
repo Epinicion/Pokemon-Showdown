@@ -1117,10 +1117,10 @@ heavenldrs: function(target, room, user) {
 		},
 heavene4: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\><br\>' +
+		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\>' +
                 '<font color="#00adf1"><font size="2"><b>Elite Four Entalp:</b></font> Type - Flying<br\>' +
-                '<font color="#FF00FF"><font size="2"><b>Elite Four Video:</b></font> Type - Psychic<br\>' +
-            '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\><br\>' +
+                '<font color="#FF00FF"><font size="2"><b>Elite Four Video:</b></font> Type - Psychic<br\><br\>' +
+            '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\>' +
                 '<font color="#00b818"><font size="3"><b>Champion Epin:</b></font> Type - Bug<br\>')
 		},
 hellldrs: function(target, room, user) {
@@ -1147,12 +1147,12 @@ hellldrs: function(target, room, user) {
                 },
 helle4: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReplyBox('<font size="4"><b>Hell Elite Four:</b></font><br\><br\>' +
+		this.sendReplyBox('<font size="4"><b>Hell Elite Four:</b></font><br\>' +
                 '<font color="#000000"><font size="2"><b>Elite Four Lando:</b></font> Type - Dark<br\>' +
                 '<font color="#0000FF"><font size="2"><b>Elite Four Kyo:</b></font> Type - Water<br\>' +
  '<font color="#9e979c"><font size="2"><b>Elite Four Shep:</b></font> Type - Steel<br\>' +
- '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Flying<br\>' +
-            '<font color="#000000"><font size="4"><b>Hell Champion:</b></font><br\><br\>' +
+ '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Flying<br\><br\>' +
+            '<font color="#000000"><font size="4"><b>Hell Champion:</b></font><br\>' +
                 '<font color="#A52A2A"><font size="3"><b>Champion Maxerus:</b></font> Type - Ground<br\>')
 		},
 	challengerinfo: function(target, room, user) {
