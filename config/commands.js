@@ -1145,6 +1145,16 @@ hellldrs: function(target, room, user) {
                 '<font color="#9e979c"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
                 },
+helle4: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<font size="4"><b>Hell Elite Four:</b></font><br\><br\>' +
+                '<font color="#000000"><font size="2"><b>Elite Four Lando:</b></font> Type - Dark<br\>' +
+                '<font color="#0000FF"><font size="2"><b>Elite Four Kyo:</b></font> Type - Water<br\>' +
+ '<font color="#9e979c"><font size="2"><b>Elite Four Shep:</b></font> Type - Steel<br\>' +
+ '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Flying<br\>' +
+            '<font color="#000000"><font size="4"><b>Hell Champion:</b></font><br\><br\>' +
+                '<font color="#A52A2A"><font size="3"><b>Champion Maxerus:</b></font> Type - Ground<br\>')
+		},
 	challengerinfo: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="6"><b>Challenger Information</b></font><br />' +
