@@ -1038,10 +1038,10 @@ enty: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'Bitch please, Im Entalp.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite-2.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/arcanine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/garchomp.gif">')
 },
-strider: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+aspen: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<font color="#c600d8"><font size="4"><b>Prof. Aspen</b></font></font><br\><br\>' +
 		'<b>What I can help you with!:</b><br\>' + 
-                '<b> Training:</b> I have trained numerous current and former members, namely former champions Gabe and Lights, and current champ Epin.<br\>' + '<b>Instruct and Assist:</b> I can assist you in challenging the league and applying for a gym leader spot.<br\>' + '<b>Direct:</b> I can help you contact the correct people and find necessary information for your use and pleasure<br\>' )
+                '<b> Training:</b> I have trained numerous current and former members, namely former champions Gabe, Khrolek and Lights, and current champ Epin.<br\>' + '<b>Instruct and Assist:</b> I can assist you in challenging the league and applying for a gym leader spot.<br\>' + '<b>Direct:</b> I can help you contact the correct people and find necessary information for your use and pleasure<br\>' )
 },
 hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Hipi <br \>' +
