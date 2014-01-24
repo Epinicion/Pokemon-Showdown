@@ -1074,9 +1074,9 @@ kyo: function(target, room, user) {if (!this.canBroadcast()) return; this.sendRe
 		'Dont underestimate the drizzle. Its just the calm before the storm<br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/tentacruel.gif">')},
 epin: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Epinicion <br \>' +
+                ''<font color="#00cf0a"><font size="4"><b>Champion:</b></font> Epinicion<br\>'  +
 		'<b>Ace:</b> Crustle <br \>' + 
-		'I woke up in the morning, Hard like morning wood in the morning<br \>' +
+		'Children need encouragement. So if a kid gets an answer right, tell him it was a lucky guess. That way, he develops a good, lucky feeling. <br \>' +
 		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crustle.gif" alt="Crustle"/>'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/bisharp.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/genesect.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mew.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmonlee.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/jolteon.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/treecko.gif">')},
 kota: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Savior:</b> Kota <br \>' + 
