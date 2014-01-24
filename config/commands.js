@@ -1111,7 +1111,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font color="#9e979c"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
+                '<font color="#9e979c"><font size="2"><b>Gym Ldr. Boby:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
 heavene4: function(target, room, user) {
