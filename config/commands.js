@@ -981,7 +981,7 @@ kots: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 max: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<font color="#f30020"><font size="4"><b>Champion Maxerus</b></font></font><br\>'  +
 		'<b>Ace:</b> Gliscor <br \>' +
-		'<br \>' +
+		'All men dream: but not equally. Those who dream by night in the dusty recesses of their minds, wake in the day to find that it was vanity: but the dreamers of the day are dangerous men, for they may act their dream with open eyes, to make it possible.<br\>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/gliscor.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sceptile.gif">')
 },
 sack: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
