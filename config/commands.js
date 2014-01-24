@@ -1115,6 +1115,14 @@ heavenldrs: function(target, room, user) {
                 '<font color="#9e979c"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
+heavene4: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\><br\>' +
+                '<font color="#00adf1"><font size="2"><b>Elite Four Entalp:</b></font> Type - Flying<br\>' +
+                '<font color="#FF00FF"><font size="2"><b>Elite Four Video:</b></font> Type - Psychic<br\>' +
+            '<font size="4"><b>Heaven Champion:</b></font><br\><br\>' +
+                '<font color="#00b818"><font size="3"><b>Champion Epin:</b></font> Type - Bug<br\>')
+		},
 hellldrs: function(target, room, user) {
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox('<font size="4"><b>Hell Gym Leaders:</b></font><br\><br\>' +
