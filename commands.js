@@ -350,10 +350,30 @@ var commands = exports.commands = {
 		Rooms.global.autojoinRooms(user, connection)
 	},
 
-	join: function(target, room, user, connection) {
-		if (!target) return false;
-		var targetRoom = Rooms.get(target) || Rooms.get(toId(target));
- if (target.toLowerCase() == "lobby") {
+	 join: function(target, room, user, connection) {
+                if (!target) return false;
+                var targetRoom = Rooms.get(target) || Rooms.get(toId(target));
+                if (targetRoom === 'logroom' && user.group !== '~') return false;
+                if (targetRoom === 'adminroom' && user.group !== '~') return false;
+                if (!targetRoom) {
+                        if (target === 'lobby') return connection.sendTo(target, "|noinit|nonexistent|");
+                        return connection.sendTo(target, "|noinit|nonexistent|The room '"+target+"' does not exist.");
+                }
+                if (targetRoom.isPrivate && !user.named) {
+                        return connection.sendTo(target, "|noinit|namerequired|You must have a name in order to join the room '"+target+"'.");
+                }
+                if (target.toLowerCase() != "lobby" && !user.named) {
+                        return connection.sendTo(target, "|noinit|namerequired|You must have a name in order to join the room " + target + ".");
+                }
+                if (!user.joinRoom(targetRoom || room, connection)) {
+                        return connection.sendTo(target, "|noinit|joinfailed|The room '"+target+"' could not be joined.");
+                }
+                if (targetRoom.lockedRoom === true) {
+                        if ((!targetRoom.auth[user.userid]) && (!user.isStaff)) {
+                                return connection.sendTo(target, "|noinit|joinfailed|The room '"+target+"' is currently locked.");
+                        }
+                }
+                if (target.toLowerCase() == "lobby") {
                         return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><img src="http://i.imgur.com/RKZTxPs.png"><br />' +
                         '<b><u>Welcome to the Frost Server!</u></b><br />' +
                         'Home of many leagues for you to join or challenge, battle users in the ladder or in tournaments, learn how to play Pokemon or just chat in lobby!<br /><br />' +
@@ -362,15 +382,26 @@ var commands = exports.commands = {
                         'Feel free to jam out with Frost <a href="http://plug.dj/frost-ps/">here</a>!<br /><br />' +
                         '<b>Frost</b>-<blockquote><em>Promoting your league, one challenger at a time</em></blockquote></div></font></center>');
                 }
-		}
-		if (targetRoom.isPrivate && !user.named) {
-			return connection.sendTo(target, "|noinit|namerequired|You must have a name in order to join the room '"+target+"'.");
-		}
-		if (!user.joinRoom(targetRoom || room, connection)) {
-			return connection.sendTo(target, "|noinit|joinfailed|The room '"+target+"' could not be joined.");
-		}
-	},
+                if (target.toLowerCase() === 'frostcasino' || target.toLowerCase() === 'frost casino') {
+                        if (economy.closeCasino === true) {
+                                return connection.sendTo('frostcasino', '|html|<div class="infobox" style="border-color:blue"><center><font size="18">Frost Casino is</font> <font size="18" color="red">closed!</font><br />' +
+                                        '<br />The casino is currently closed, if you would like it to be opened ask a member of staff.</center></div>');
+                        }
+                        else if (economy.closeCasino === false) {
 
+                        }
+                }
+                /*
+                if (target.toLowerCase() == "lobby") {
+                        return connection.sendTo('lobby','|html|<center><br><h1><font><b><img src="http://www.serebii.net/xy/pokemon/711-h.png"><font color="Orange">WELCOME </font><font color="black">TO </font><font color="Orange">FROST!</font><img src="http://www.serebii.net/xy/pokemon/711-h.png"></center></b><br />' +
+                                '<center>Frost staff wish you all a happy halloween!<br /><br />' +
+                                'Home of many leagues for you to join or challenge, battle users in the ladder or in tournaments, learn how to play Pokemon or just chat in lobby!<br /><br />' +
+                                'Make sure to type <b>/help</b> to get a list of commands that you can use and <b>/faq</b> to check out frequently asked questions.</center>');
+                }*/
+                if (targetRoom.id === "spamroom" && !user.isStaff) {
+                        return connection.sendTo(target, "|noinit|nonexistent|The room'"+target+"' does not exist.");
+                }
+        },
 	
 	rb: 'roomban',
 	roomban: function(target, room, user, connection) {
