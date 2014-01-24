@@ -374,7 +374,7 @@ var commands = exports.commands = {
                         }
                 }
                 if (target.toLowerCase() == "lobby") {
-                        return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><img src="http://i.imgur.com/RKZTxPs.png"><br />' +
+                        return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><img src="http://i.imgur.com/HhgdunQ.png"><br />' +
                         '<b><u>Welcome to the Biblia Server!</u></b><br />' +
                         'Home of the one and only Biblia League! Feel free to sign up as a challenger with an Elite Four or Champion, or just hang out and battle!<br /><br />' +
                         'Make sure to type <b>/help</b> to get a list of commands that you can use and <b>/faq</b> to check out frequently asked questions.<br /><br />' +
