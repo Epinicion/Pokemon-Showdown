@@ -353,9 +353,6 @@ var commands = exports.commands = {
 	join: function(target, room, user, connection) {
 		if (!target) return false;
 		var targetRoom = Rooms.get(target) || Rooms.get(toId(target));
-		if (!targetRoom) {
-			if (target === 'lobby') return connection.sendTo(target, "|noinit|nonexistent|");
-			return connection.sendTo(target, "|noinit|nonexistent|The room '"+target+"' does not exist.");
  if (target.toLowerCase() == "lobby") {
                         return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><img src="http://i.imgur.com/RKZTxPs.png"><br />' +
                         '<b><u>Welcome to the Frost Server!</u></b><br />' +
