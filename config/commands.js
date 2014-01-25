@@ -966,6 +966,12 @@ var commands = exports.commands = {
         /***************************************
         * Trainer Cards *
         ***************************************/
+natalie: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Princess Natalie <br \>' +
+		'<b>Ace:</b> Mega-Houndoom <br \>' +
+		'Everyone maybe stronger, but I will never give up till I die!<br \>' +
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/houndoom-mega.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/weavile.gif">')
+		},
 blak: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Soaring BlakAir <br \>' +
 		'<b>Ace:</b> Mega-Gyarados <br \>' +
@@ -1004,9 +1010,9 @@ kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">')
 },
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<center><font size="4" color="blue"><b>Elite Four ProteanShakes</b></font color>AKA <font size="4" color="red"<b>Lando</b>' +
+                '<center><font size="4" color="brown"><b>Elite Four ProteanShakes</font color><font size="4" color="blue"<b>Lando</b>' +
 		'<center><b>Ace:</b> Landorus <br \>' +
-		'Coding assistant to Epin, annoying when he does not ever do anything though<br \>' +
+		'One has not felt and witnessed true pain if they havent lost someone dare to them. Wilpower is what gets you through everything and I, Lando, has that power.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">')
 },
 lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
