@@ -1033,6 +1033,12 @@ vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'I am HIGH PRIEST VATICAN ASSASIN WARLOCK!<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zoroark.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/umbreon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">')
 },
+icicle: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Icicle <br \>' +
+		'<b>Ace:</b> Abomasnow <br \>' +
+		'Icy alot of puns don't you?<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mamoswine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/abomasnow.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cloyster.gif">')
+},
 radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Radar <br \>' +
 		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +
