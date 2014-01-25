@@ -1130,7 +1130,7 @@ heavene4: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\>' +
                 '<font color="#6d6d6d"><font size="2"><b>Elite Four Shep:</b></font> Type - Steel<br\>' +
-                '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Psychic<br\>' +
+                '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Flying<br\>' +
                 '<font color="#808080"><font size="2"><b>Elite Four Zeall:</b></font> Type - Normal<br\><br\>' +
             '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\>' +
                 '<font color="#00b818"><font size="3"><b>Champion Epin:</b></font> Type - Bug<br\>')
