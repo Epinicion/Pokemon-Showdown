@@ -1117,13 +1117,13 @@ heavenldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font color="#9e979c"><font size="2"><b>Gym Ldr. Boby:</b></font> Type - Steel<br\>' +
+                '<font color="#6d6d6d"><font size="2"><b>Gym Ldr. Boby:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
 heavene4: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('<font size="4"><b>Heaven Elite Four:</b></font><br\>' +
-                '<font color="##9e979c"><font size="2"><b>Elite Four Shep:</b></font> Type - Steel<br\>' +
+                '<font color="#6d6d6d"><font size="2"><b>Elite Four Shep:</b></font> Type - Steel<br\>' +
                 '<font color="#00adf1"><font size="2"><b>Elite Four Blakair:</b></font> Type - Psychic<br\>' +
                 '<font color="#808080"><font size="2"><b>Elite Four Zeall:</b></font> Type - Normal<br\><br\>' +
             '<font color="#000000"><font size="4"><b>Heaven Champion:</b></font><br\>' +
@@ -1148,7 +1148,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. Hipi:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Vain:</b></font> Type - Dark<br\>' +
-                '<font color="#9e979c"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
+                '<font color="#6d6d6d"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
                 },
 helle4: function(target, room, user) {
