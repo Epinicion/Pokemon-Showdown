@@ -1176,6 +1176,160 @@ registerteam: function(target, room, user)
 	var pokemonA = parts[0];	var pokemonB = parts[1];	var pokemonC = parts[2];	var pokemonD = parts[3];	var pokemonE = parts[4];	var pokemonF = parts[5]};	if (pokemonF === 0) {return this.sendReply ('Please enter six Pokemon.')} else {var log = fs.createWriteStream('config/teams.csv', {'flags': 'a'});
 			log.write("\n" + teamRegister + ':' + pokemonA + ', ' + pokemonB + ', ' + pokemonC + ', ' + pokemonD + ', ' + pokemonE + ':' + pokemonF);	this.sendReply(user.name + ' registered the team of ' +  pokemonA + ', ' + pokemonB + ', ' + pokemonC + ', ' + pokemonD + ', ' + pokemonE + ', and ' + pokemonF)} 
 			},
+			viewteam: function(target, room, user, connection, cmd) {
+        if (!this.canBroadcast()) return;
+        var tMatch = false;
+        var money = 0;
+	var cMatch = false
+        var total = 0;
+        if (!target) {
+        var data = fs.readFileSync('config/teams.csv','utf8')
+                var row = (''+data).split("\n");
+                for (var i = row.length; i > -1; i--) {
+                        if (!row[i]) continue;
+                        var parts = row[i].split(":");
+                        var userid = toUserid(parts[0]);
+                        if (user.userid == userid) {
+                        var CokemonA = (parts[1]);
+                        var CokemonB = (parts[2]);
+                        tMatch = true;
+                        if (tMatch === true) {
+                                break;
+                        }
+                        }
+                }
+                 if (tMatch === true) {
+                     var total = 'The team that ' + this.targetUsername + ' has registered is ' + CokemonA + ' and ' + CokemonB;
+                } 
+                if (tMatch === false) {
+                      var total = this.targetUsername + ' does not have a team registered.';
+                }
+user.money = money; var data = fs.readFileSync('config/coins.csv','utf8')
+                var row = (''+data).split("\n");
+        
+
+        for (var i = row.length; i > -1; i--) {
+                        if (!row[i]) continue;
+                        var parts = row
+
+[i].split(",");
+                        var userid = toUserid(parts[0]);
+                        if (user.userid == userid) {
+                
+
+        var x = Number(parts[1]);
+                        var coins = x;
+                        cMatch = true;
+                        if 
+
+(cMatch === true) {
+                                break;
+                        }
+                        }
+                }
+                
+
+if (cMatch === true) {
+                        var p = 'badges';
+                        if (coins < 2) p = 'badge';
+                        
+
+total += '   '
+                }
+                if (cMatch === false) {
+                        
+
+total += '   '
+                }
+                user.coins = coins;
+        } else {
+                var data = 
+
+fs.readFileSync('config/teams.csv','utf8')
+                target = this.splitTarget(target);
+                var targetUser = 
+
+this.targetUser;
+                if (!targetUser) {
+                        return this.sendReply('User '+ this.targetUsername + 'not found.');
+                }
+                var money = 0;
+                var row = (''+data).split("\n");
+                for (var i 
+
+= row.length; i > -1; i--) {
+                        if (!row[i]) continue;
+                        var parts = row[i].split(":");
+                
+
+        var userid = toUserid(parts[0]);
+                        if (targetUser.userid == userid || target == userid) {
+                	var CokemonA = (parts[1]);
+                        var CokemonB = (parts[2]);
+                        tMatch = true;
+                        if 
+
+(tMatch === true) {
+                                break;
+                        }
+                        }
+                }
+                
+
+if (tMatch === true) {
+                     var total = 'The team that ' + this.targetUsername + ' has registered is ' + CokemonA + ' and ' + CokemonB + '.';
+                } 
+                if (tMatch === false) {
+                      var total = this.targetUsername + ' does not have a team registered.';
+                }
+                targetUser.money = money;
+               
+
+var data = fs.readFileSync('config/coins.csv','utf8')
+                var coins = 0;
+                var row = (''+data).split("\n");
+        
+
+        for (var i = row.length; i > -1; i--) {
+                        if (!row[i]) continue;
+                        var parts = row
+
+[i].split(",");
+                        var userid = toUserid(parts[0]);
+                        if (targetUser.userid == userid || 
+
+target == userid) {
+                        var x = Number(parts[1]);
+                        var coins = x;
+                        
+
+cMatch = true;
+                        if (cMatch === true) {
+                                break;
+                        }
+                        
+
+}
+                }
+                if (cMatch === true) {
+                        var p = 'badges';
+                        if (coins < 
+
+2) p = 'badge';
+                        total += ' ';
+                } 
+                
+
+if (cMatch === false) {
+                        total += ' ';
+                }
+                
+
+targetUser.coins = coins;
+        }
+if (this.targetUsername === undefined) {var total = 'Please specify a username.'} else{return this.sendReplyBox(total)}
+        },
+        
 afk: 'away',
 	away : function (target, room, user, connection) {
 		if (!this.can('lock')) return false;
