@@ -1170,6 +1170,12 @@ helle4: function(target, room, user) {
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
+registerteam: function(target, room, user)
+{if (target.indexOf(',') != -1)	{
+	var pokemonF = 0;	var teamRegister = user.userid;	var parts = target.split(',');
+	var pokemonA = parts[0];	var pokemonB = parts[1];	var pokemonC = parts[2];	var pokemonD = parts[3];	var pokemonE = parts[4];	var pokemonF = parts[5]};	if (pokemonF === 0) {return this.sendReply ('Please enter six Pokemon.')} else {var log = fs.createWriteStream('config/teams.csv', {'flags': 'a'});
+			log.write("\n" + teamRegister + ':' + pokemonA + ', ' + pokemonB + ', ' + pokemonC + ', ' + pokemonD + ', ' + pokemonE + ':' + pokemonF);	this.sendReply(user.name + ' registered the team of ' +  pokemonA + ', ' + pokemonB + ', ' + pokemonC + ', ' + pokemonD + ', ' + pokemonE + ', and ' + pokemonF)} 
+			},
 afk: 'away',
 	away : function (target, room, user, connection) {
 		if (!this.can('lock')) return false;
