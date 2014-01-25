@@ -970,7 +970,7 @@ natalie: function(target, room, user) {if (!this.canBroadcast()) return; this.se
                 '<b>Trainer:</b> Princess Natalie <br \>' +
 		'<b>Ace:</b> Mega-Houndoom <br \>' +
 		'Everyone maybe stronger, but I will never give up till I die!<br \>' +
-		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/houndoom-mega.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/weavile.gif">')
+		'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/houndoom.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/weavile.gif">')
 		},
 blak: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Soaring BlakAir <br \>' +
