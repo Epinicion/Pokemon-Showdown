@@ -1031,7 +1031,7 @@ vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
                 '<b>Trainer:</b> Vain <br \>' +
 		'<b>Ace:</b> Sableye <br \>' +
 		'I am HIGH PRIEST VATICAN ASSASIN WARLOCK!<br \>' +
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/absol-3.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/scrafty.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">')
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zoroark.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/umbreon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">')
 },
 radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Radar <br \>' +
