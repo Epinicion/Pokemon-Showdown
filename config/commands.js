@@ -142,7 +142,6 @@
  *
  * @license MIT license
  */
-var avatar = fs.createWriteStream('config/avatars.csv', {'flags': 'a'});
 var poofeh = true;
 var commands = exports.commands = {
 
