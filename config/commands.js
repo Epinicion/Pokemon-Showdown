@@ -1010,9 +1010,9 @@ kswiss: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/darmanitan.gif">')
 },
 lando: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<center><font size="4" color="brown"><b>Elite Four ProteanShakes</font color><font size="4" color="blue"<b>Lando</b>' +
+                '<center><font size="4" color="brown"><b>Elite Four ProteanShakes</font color><font size="4" color="blue"<b>-Lando</b>' +
 		'<center><b>Ace:</b> Landorus <br \>' +
-		'One has not felt and witnessed true pain if they havent lost someone dare to them. Wilpower is what gets you through everything and I, Lando, has that power.<br \>' +
+		'One has not felt and witnessed true pain if they haven\'t lost someone dear to them. Willpower is what gets you through everything and I, Lando, have that power.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/landorus.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/deoxys.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crawdaunt.gif">' + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lucario-mega.gif">')
 },
 lizard: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
@@ -1034,7 +1034,7 @@ vain: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zoroark.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/umbreon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">')
 },
 icicle: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
-                '<b>Trainer:</b> Icicle <br \>' +
+                '<b>Trainer:</b> Icicle-The Ice Clown <br \>' +
 		'<b>Ace:</b> Abomasnow <br \>' +
 		'Icy alot of puns dont you?<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mamoswine.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/abomasnow.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cloyster.gif">')
