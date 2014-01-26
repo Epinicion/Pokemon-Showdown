@@ -142,7 +142,7 @@
  *
  * @license MIT license
  */
-
+var poofeh = true;
 var commands = exports.commands = {
 
 	ip: 'whois',
