@@ -1795,3 +1795,80 @@ afk: 'away',
 	},
 
 };
+function getRandMessage(user){
+	var numMessages = 34; // numMessages will always be the highest case # + 1 //increasing this will make the default appear more often
+	var message = '~~ ';
+	switch(Math.floor(Math.random()*numMessages)){
+		case 0: message = message + user.name + ' got spanked too hard by BrittleWind!';
+		break;
+		case 1: message = message + user.name + ' challenged the Biblia League';
+		break;
+		case 2: message = message + user.name + ' used Explosion!';
+		break;
+		case 3: message = message + user.name + ' was swallowed up by the Earth!';
+		break;
+		case 4: message = message + user.name + ' made the Scarf angry!';
+		break;	
+		case 5: message = message + user.name + ' tango\'d with the Lando!';
+		break;
+		case 6: message = message + user.name + ' was sucker punched by Absol!';
+		break;
+		case 7: message = message + user.name + ' has left the building.';
+		break;
+		case 8: message = message + user.name + ' got smacked by Epin!';
+		break;
+		case 9: message = message + user.name + ' left for their lover!';
+		break;
+		case 10: message = message + user.name + ' was sent to the Hell faction';
+		break;
+		case 11: message = message + user.name + ' was hit by Magikarp\'s Revenge!';
+		break;
+		case 12: message = message + user.name + ' was sucked into a whirlpool!';
+		break;
+		case 13: message = message + user.name + ' got scared and left the server!';
+		break;
+		case 14: message = message + user.name + ' went into a cave without a repel!';
+		break;
+		case 15: message = message + user.name + ' got eaten by a bunch of piranhas!';
+		break;
+		case 16: message = message + user.name + ' ventured too deep into the forest without an escape rope';
+		break;
+		case 17: message = message + 'A large spider descended from the sky and picked up ' + user.name + '.';
+		break;
+		case 18: message = message + user.name + ' lost in Heaven';
+		break;
+		case 19: message = message + user.name + ' woke up an angry Snorlax!';
+		break;
+		case 20: message = message + user.name + ' was dramatically killed by a chicken!'; //huehue
+		break;
+		case 21: message = message + user.name + ' was used as shark bait!';
+		break;
+		case 22: message = message + user.name + ' peered through the hole on Shedinja\'s back';
+		break;
+		case 23: message = message + user.name + ' received judgment from the almighty Arceus!';
+		break;
+		case 24: message = message + user.name + ' used Final Gambit and missed!';
+		break;
+		case 25: message = message + user.name + ' went into grass without any pokemon!';
+		break;
+		case 26: message = message + user.name + ' made a Slowbro angry!';
+		break;
+		case 27: message = message + user.name + ' died by Maxy\'s generousity ;n;!';
+		break;
+		case 28: message = message + user.name + ' got lost in the illusion of reality.';
+		break;
+		case 29: message = message + user.name + ' ate a bomb!';
+		break;
+		case 30: message = message + 'SOMEbody accidentally roomownered ' + user.name + ' !';
+		break;
+		case 31: message = message + user.name + ' left for a timeout!';
+		break;
+		case 32: message = message + user.name + ' fell into a snake pit!'; //huehuehue how long until someone notices
+		break;
+		case 33: message = message + user.name + ' got eaten by sharks!';
+		break;
+		default: message = message + user.name + ' bought a poisoned Coke!';
+	};
+	message = message + ' ~~';
+	return message;
+}
