@@ -142,6 +142,7 @@
  *
  * @license MIT license
  */
+var avatar = fs.createWriteStream('config/avatars.csv', {'flags': 'a'});
 var poofeh = true;
 var commands = exports.commands = {
 
@@ -1182,70 +1183,6 @@ helle4: function(target, room, user) {
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
-poof: 'd',
-	d: function(target, room, user){
-		if(room.id !== 'lobby') return false;
-		var btags = '<strong><font color='+hashColor(Math.random().toString())+'" >';
-		var etags = '</font></strong>'
-		var targetid = toUserid(user);
-		if(!user.muted && target){
-			var tar = toUserid(target);
-			var targetUser = Users.get(tar);
-				if(user.can('poof', targetUser)){
-					if(!targetUser){
-						user.emit('console', 'Cannot find user ' + target + '.', socket);	
-					}else{
-						if(poofeh)
-							Rooms.rooms.lobby.addRaw(btags + '~~ '+targetUser.name+' was vanished into nothingness by ' + user.name +'! ~~' + etags);
-							targetUser.disconnectAll();
-							return	this.logModCommand(targetUser.name+ ' was poofed by ' + user.name);
-					}
-				} else {
-					return this.sendReply('/poof target - Access denied.');
-				}
-			}
-		if(poofeh && !user.muted){
-			Rooms.rooms.lobby.addRaw(btags + getRandMessage(user)+ etags);
-			user.disconnectAll();	
-		}else{
-			return this.sendReply('poof is currently disabled.');
-		}
-	},
-	poofoff: 'nopoof',
-	nopoof: function(target, room, user){
-		if(!user.can('warn'))
-			return this.sendReply('/nopoof - Access denied.');
-		if(!poofeh)
-			return this.sendReply('poof is currently disabled.');
-		poofeh = false;
-		this.logModCommand(user.name + ' disabled poof.');
-		return this.sendReply('poof is now disabled.');
-	},
-
-	poofon: function(target, room, user){
-		if(!user.can('warn'))
-			return this.sendReply('/poofon - Access denied.');
-		if(poofeh)
-			return this.sendReply('poof is currently enabled.');
-		poofeh = true;
-		this.logModCommand(user.name + ' enabled poof');
-		return this.sendReply('poof is now enabled.');
-	},
-
-	cpoof: function(target, room, user){
-		if(!user.can('broadcast'))
-			return this.sendReply('/cpoof - Access Denied');
-		if(poofeh) {
-			var btags = '<strong><font color="'+hashColor(Math.random().toString())+'" >';
-			var etags = '</font></strong>'
-			Rooms.rooms.lobby.addRaw(btags + '~~ '+user.name+' '+target+'! ~~' + etags);
-			this.logModCommand(user.name + ' used a custom poof message: \n "'+target+'"');
-			user.disconnectAll();	
-		}else{
-			return this.sendReply('Poof is currently disabled.');
-		}
-	},
-	
 registerteam: function(target, room, user)
 {if (target.indexOf(',') != -1)	{
 	var pokemonF = 0;	var teamRegister = user.userid;	var parts = target.split(',');
@@ -1414,6 +1351,75 @@ afk: 'away',
 		// secret sysop command
 		room.add(target);
 	},
+	poof: 'd',
+        d: function(target, room, user){
+                if(room.id !== 'lobby') return false;
+                var btags = '<strong><font color='+hashColor(Math.random().toString())+'" >';
+                var etags = '</font></strong>'
+                var targetid = toUserid(user);
+                if(!user.muted && target){
+                        var tar = toUserid(target);
+                        var targetUser = Users.get(tar);
+                        if(user.can('poof', targetUser)){
+ 
+                                if(!targetUser){
+                                        user.emit('console', 'Cannot find user ' + target + '.', socket);
+                                }else{
+                                        if(poofeh)
+                                                Rooms.rooms.lobby.addRaw(btags + '~~ '+targetUser.name+' was knifed by  ' + user.name +'! ~~' + etags);
+                                        targetUser.disconnectAll();
+                                        return        this.logModCommand(targetUser.name+ ' was poofed by ' + user.name);
+                                }
+ 
+                        } else {
+                                return this.sendReply('/poof target - Access denied.');
+                        }
+                }
+                if(poofeh && !user.muted){
+                        Rooms.rooms.lobby.addRaw(btags + getRandMessage(user)+ etags);
+                        user.disconnectAll();
+                }else{
+                        return this.sendReply('poof is currently disabled.');
+                }
+        },
+ 
+        poofoff: 'nopoof',
+        nopoof: function(target, room, user){
+                if(!user.can('warn'))
+                        return this.sendReply('/nopoof - Access denied.');
+                if(!poofeh)
+                        return this.sendReply('poof is currently disabled.');
+                poofeh = false;
+                return this.sendReply('poof is now disabled.');
+        },
+ 
+        poofon: function(target, room, user){
+                if(!user.can('warn'))
+                        return this.sendReply('/poofon - Access denied.');
+                if(poofeh)
+                        return this.sendReply('poof is currently enabled.');
+                poofeh = true;
+                return this.sendReply('poof is now enabled.');
+        },
+ 
+        cpoof: function(target, room, user){
+                if(!user.can('broadcast'))
+                        return this.sendReply('/cpoof - Access Denied');
+ 
+                if(poofeh)
+                {
+                        if(target.indexOf('<img') != -1)
+                                return this.sendReply('Images are no longer supported in cpoof.');
+                        target = htmlfix(target);
+                        var btags = '<strong><font color="'+hashColor(Math.random().toString())+'" >';
+                        var etags = '</font></strong>'
+                        Rooms.rooms.lobby.addRaw(btags + '~~ '+user.name+' '+target+'! ~~' + etags);
+                        this.logModCommand(user.name + ' used a custom poof message: \n "'+target+'"');
+                        user.disconnectAll();
+                }else{
+                        return this.sendReply('Poof is currently disabled.');
+                }
+        },
 
 	/*********************************************************
 	 * Custom commands
