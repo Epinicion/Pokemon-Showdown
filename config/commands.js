@@ -1113,7 +1113,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#e9c900"><font size="2"><b>Gym Ldr. Scorcher:</b></font> Type - Electric<br\>' +
                 '<font color="#008000"><font size="2"><b>Gym Ldr. Marluxia:</b></font> Type - Grass<br\>' +
                 '<font color="#017f8a"><font size="2"><b>Gym Ldr. Icicle:</b></font> Type - Ice<br\>' +
-                '<font color="#ea7500"><font size="2"><b>Gym Ldr. Christ:</b></font> Type - Fighting<br\>' +
+                '<font color="#ea7500"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fighting<br\>' +
                 '<font color="#800080"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Poison<br\>' +
                 '<font color="#A52A2A"><font size="2"><b>Gym Ldr. Intel:</b></font> Type - Ground<br\>' +
                 '<font color="#00adf1"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Flying<br\>' +
@@ -1123,7 +1123,7 @@ heavenldrs: function(target, room, user) {
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Wander:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Sack:</b></font> Type - Dark<br\>' +
-                '<font color="#6d6d6d"><font size="2"><b>Gym Ldr. Boby:</b></font> Type - Steel<br\>' +
+                '<font color="#6d6d6d"><font size="2"><b>Gym Ldr. Christ:</b></font> Type - Steel<br\>' +
                 '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
 		},
 heavene4: function(target, room, user) {
@@ -1156,7 +1156,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Vain:</b></font> Type - Dark<br\>' +
                 '<font color="#6d6d6d"><font size="2"><b>Gym Ldr. Frank:</b></font> Type - Steel<br\>' +
-                '<font color="#ea009f"><font size="2"><b>Gym Ldr. Pwns:</b></font> Type - Fairy<br\>' )
+                '<font color="#ea009f"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Fairy<br\>' )
                 },
 helle4: function(target, room, user) {
 		if (!this.canBroadcast()) return;
