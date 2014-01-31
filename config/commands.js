@@ -1041,7 +1041,7 @@ icicle: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
 },
 radar: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Radar <br \>' +
-		'Never gave Epin a quote so she is a butthead that is related to Max, ew.<br \>' +
+		'Everyone is afraid of how hard my sets go, like sweeping Registeel, hardcore choice band Hydregion, and walling Yanmega. Also I love Epin.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/crobat.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/hydreigon.gif">'+ '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magmar.gif">')
 },
 enty: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
@@ -1060,6 +1060,12 @@ hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'<b>Ace:</b> Sableye <br \>' +
 		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' )
+},
+Splash: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+                '<b>Trainer:</b> Splash <br \>' +
+		'<b>Ace:</b> Bandido the Ludicolo <br \>' +
+		'MY TEAM IS AT THE TOP PERCENTAGE<br \>' +
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/azumarill.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/Ludicolo.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/Suicune.gif">' )
 },
 merikafuckya: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
               '<img src="http://i.imgur.com/szsGcjs.gif">' )
