@@ -1065,7 +1065,7 @@ splash: function(target, room, user) {if (!this.canBroadcast()) return; this.sen
                 '<b>Trainer:</b> Splash <br \>' +
 		'<b>Ace:</b> Bandido the Ludicolo <br \>' +
 		'MY TEAM IS AT THE TOP PERCENTAGE<br \>' +
-'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/azumarill.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/Ludicolo.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/Suicune.gif">' )
+'<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/azumarill.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/ludicolo.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/suicune.gif">' )
 },
 merikafuckya: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
               '<img src="http://i.imgur.com/szsGcjs.gif">' )
