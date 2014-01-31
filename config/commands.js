@@ -1151,7 +1151,7 @@ hellldrs: function(target, room, user) {
                 '<font color="#00adf1"><font size="2"><b>Gym Ldr. CK:</b></font> Type - Flying<br\>' +
                 '<font color="#FF00FF"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Psychic<br\>' +
                 '<font color="#00b818"><font size="2"><b>Gym Ldr. Ortex:</b></font> Type - Bug<br\>' +
-                '<font color="#6a4f3d"><font size="2"><b>Gym Ldr. Walt:</b></font> Type - Rock<br\>' +
+                '<font color="#6a4f3d"><font size="2"><b>Gym Ldr. ???:</b></font> Type - Rock<br\>' +
                 '<font color="#9370DB"><font size="2"><b>Gym Ldr. Hipi:</b></font> Type - Ghost<br\>' +
                 '<font color="#6A5ACD"><font size="2"><b>Gym Ldr. Tigrex:</b></font> Type - Dragon<br\>' +
                 '<font color="#000000"><font size="2"><b>Gym Ldr. Vain:</b></font> Type - Dark<br\>' +
