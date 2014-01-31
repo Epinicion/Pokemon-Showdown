@@ -1061,7 +1061,7 @@ hipi: function(target, room, user) {if (!this.canBroadcast()) return; this.sendR
 		'Not everything in life is as it seems, life just leads to misery after misery with the occasional happy day.<br \>' +
 '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/sableye.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif">'  + '<img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/klefki.gif">' )
 },
-Splash: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
+splash: function(target, room, user) {if (!this.canBroadcast()) return; this.sendReplyBox(
                 '<b>Trainer:</b> Splash <br \>' +
 		'<b>Ace:</b> Bandido the Ludicolo <br \>' +
 		'MY TEAM IS AT THE TOP PERCENTAGE<br \>' +
