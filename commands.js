@@ -441,12 +441,7 @@ var commands = exports.commands = {
                 }
                 if (target.toLowerCase() == "lobby") {
                         return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue">' +
-                        '<b><u>Welcome to the Biblia Server!</u></b><br />' +
-                        'Home of the one and only Biblia League! Feel free to sign up as a challenger with an Elite Four or Champion, or just hang out and battle!<br /><br />' +
-                        'Make sure to type <b>/help</b> to get a list of commands that you can use and <b>/faq</b> to check out frequently asked questions.<br /><br />' +
-                        'To get a chatroom for your league, please talk to an admin (~) to receive one<br /><br />' +
-                        'Feel free to jam out with Biblia <a href="http://plug.dj/biblia-league-s-club/">here</a>!<br /><br />' +
-                        '<b>Biblia</b>-<blockquote><em>Come for the battles, stay for the friends</em></blockquote></div></font></center>');
+                        '<b><u>Welcome to the Biblia Server! We are returning to Frost! URL is http://frost.psim.us/biblialeague Feel free to join! </u></b><br />');
                 }
                 if (target.toLowerCase() === 'frostcasino' || target.toLowerCase() === 'frost casino') {
                         if (economy.closeCasino === true) {
